@@ -14,8 +14,16 @@ t_input	*parse_input(int argc, char **argv)
 	input->ttd = ft_atoi(argv[2]);
 	input->tte = ft_atoi(argv[3]);
 	input->tts = ft_atoi(argv[4]);
-	if (argc == 6 && ft_atoi(argv[5]) > 0)
-		input->meal_nbr = ft_atoi(argv[5]);
+	if (argc == 6)
+	{
+		if (ft_atoi(argv[5]) > 0)
+			input->meal_nbr = ft_atoi(argv[5]);
+		else
+		{
+			input->meal_nbr = -1;
+			printf("Number of meals is invalid, but doing the simulation anyway!\n");
+		}
+	} 
 	else
 		input->meal_nbr = -1;
 	return (input);

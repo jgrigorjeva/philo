@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 01:09:36 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/05/29 18:23:14 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/05/31 18:57:10 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,17 +24,16 @@ void	*routine(void *arg)
 int	main(int argc, char **argv)
 {
 	t_input		*input;
-	pthread_t	*th;
+	// pthread_t	*th;
 	int			i;
 
 	if (argc < 5 || argc > 6)
-	{
-		printf("Invalid number of arguments\n");
-		return (1);
-	}
+		return (printf("Invalid number of arguments\n"), 1);
 	input = parse_input(argc, argv);
+	if (!input)
+		return (1);
 	print_input(input);
-	th = malloc(sizeof(pthread_t) * input->philo_nbr);
+	// th = malloc(sizeof(pthread_t) * input->philo_nbr);
 	i = 0;
 	while (i < input->philo_nbr)
 	{
