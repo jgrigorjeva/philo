@@ -1,7 +1,7 @@
-CC = CC
+CC = cc
 CFLAGS = -Wall -Werror -Wextra -pthread 
 
-SRC = 
+SRC = main.c parse_input.c
 
 OBJS = $(SRC:.c=.o)
 
