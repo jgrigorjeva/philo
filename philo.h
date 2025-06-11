@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 16:33:48 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/10 23:30:06 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/06/11 16:37:36 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -61,7 +61,7 @@ typedef struct s_philo
 	t_fork			*left_fork;
 	t_fork			*right_fork;
 	t_state			state;
-	time_t			last_fed;
+	long		last_fed;
 	int				meals_eaten;
 	t_bool			now_eating;
 	struct s_table	*table;
@@ -76,7 +76,7 @@ typedef struct s_table
 	int				tts;
 	t_philo			*philo_arr;
 	t_fork			*fork_arr;
-	long			start_time;
+	long		start_time;
 	int				died_id;
 	pthread_mutex_t	print_mutex;
 	pthread_mutex_t	dead_mutex;
@@ -94,7 +94,7 @@ void		init_philo_arr(t_table *table);
 
 // timing
 int		ft_usleep(unsigned int time);
-uint64_t	get_time(void);
+long	get_time(void);
 
 // routine
 void	*monitor_routine(void *arg);
@@ -106,5 +106,8 @@ int		go_sleep(t_philo *philo);
 
 // end
 int	end_all(t_table *table);
+
+// utils
+t_bool	is_dead(t_table *table);
 
 #endif

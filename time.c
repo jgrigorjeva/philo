@@ -36,18 +36,18 @@
 
 // }
 
-uint64_t	get_time(void)
+long	get_time(void)
 {
 	struct timeval	tv;
 
 	if (gettimeofday(&tv, NULL))
 		return (printf("gettimeofday() FAILURE\n"), 0);
-	return ((tv.tv_sec * (uint64_t)1000) + (tv.tv_usec / 1000));
+	return ((tv.tv_sec * (long)1000) + (tv.tv_usec / 1000));
 }
 
 int	ft_usleep(unsigned int time)
 {
-	uint64_t	start;
+	long	start;
 
 	start = get_time();
 	while ((get_time() - start) < time)

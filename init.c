@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 19:00:36 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/10 22:59:12 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/06/11 18:28:30 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@ t_table	*init_all(t_input *input)
 	if (!table)
 		return (NULL);
 	init_philo_arr(table);
-	table->start_time = get_time();
 	if (init_mutex(table) || create_threads(table))
 		return (NULL);
 	return (table);
@@ -43,6 +42,7 @@ t_table	*init_table(t_input *input)
 	table->tte = input->tte;
 	table->tts = input->tts;
 	table->died_id = 0;
+	table->start_time = get_time();
 	table->philo_arr = malloc(sizeof(t_philo) * input->philo_nbr);
 	if (!table->philo_arr)
 		return (printf("Error allocating philo_arr\n"), NULL);
@@ -108,7 +108,7 @@ int	create_threads(t_table *table)
 	int	i;
 
 	i = 0;
-	if (pthread_create(&table->monitor, NULL, &monitor_routine, &table))
+	if (pthread_create(&table->monitor, NULL, &monitor_routine, table))
 		return (printf("Failed creating monitor thread\n"), 1);
 	while (i < table->philo_nbr)
 	{

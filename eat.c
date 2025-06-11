@@ -12,7 +12,7 @@ int	eat(t_philo *philo)
 	else
 		pick_forks_right_first(philo);
 	print_status(philo, "is eating");
-	philo->last_fed = get_time();
+	philo->last_fed = get_time() - philo->table->start_time;
 	ft_usleep(philo->table->tte);
 	philo->state = EAT;
 	philo->meals_eaten++;

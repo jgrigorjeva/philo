@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/29 01:09:36 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/10 22:42:42 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/06/11 18:57:05 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,7 @@ int	main(int argc, char **argv)
 	input = parse_input(argc, argv);
 	if (!input)
 		return (1);
-	print_input(input);
+	// print_input(input);
 	table = init_all(input);
 	free (input);
 	if (!table)
@@ -30,4 +30,3 @@ int	main(int argc, char **argv)
 	end_all(table);
 	return (0);
 }
-
