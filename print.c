@@ -1,33 +1,27 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   print.c                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/29 01:09:36 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/10 22:42:42 by jgrigorj         ###   ########.fr       */
+/*   Created: 2025/06/09 19:37:17 by jgrigorj          #+#    #+#             */
+/*   Updated: 2025/06/10 23:34:03 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-int	main(int argc, char **argv)
+void	print_status(t_philo *philo, const char *msg)
 {
-	t_input		*input;
-	t_table		*table;
+	t_table	*table;
+	long	now;
+	long	timestamp;
 
-	if (argc < 5 || argc > 6)
-		return (printf("Invalid number of arguments\n"), 1);
-	input = parse_input(argc, argv);
-	if (!input)
-		return (1);
-	print_input(input);
-	table = init_all(input);
-	free (input);
-	if (!table)
-		return (printf("Error initializing table\n"), 1);
-	end_all(table);
-	return (0);
+	table = philo->table;
+	now = get_time();
+	timestamp = now - table->start_time;
+	pthread_mutex_lock(&table->print_mutex);
+	printf("%ld %d %s\n", timestamp, philo->id, msg);
+	pthread_mutex_unlock(&table->print_mutex);
 }
-
