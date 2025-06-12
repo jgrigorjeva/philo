@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 16:33:48 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/11 16:37:36 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/06/11 23:17:10 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,15 +99,17 @@ long	get_time(void);
 // routine
 void	*monitor_routine(void *arg);
 void	*routine(void *arg);
+void	handle_one_philo(t_philo *philo);
 void	print_status(t_philo *philo, const char *msg);
 void	think(t_philo *philo);
 int		eat(t_philo *philo);
 int		go_sleep(t_philo *philo);
 
 // end
-int	end_all(t_table *table);
+int		end_all(t_table *table);
 
 // utils
 t_bool	is_dead(t_table *table);
-
+int		ft_strcmp(const char *s1, char *s2);
+t_bool	all_meals_eaten(t_table *table);
 #endif

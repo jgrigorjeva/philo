@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/09 19:37:17 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/10 23:34:03 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/06/12 00:09:07 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@ void	print_status(t_philo *philo, const char *msg)
 	long	timestamp;
 
 	table = philo->table;
+	pthread_mutex_lock(&table->print_mutex);
 	now = get_time();
 	timestamp = now - table->start_time;
-	pthread_mutex_lock(&table->print_mutex);
 	printf("%ld %d %s\n", timestamp, philo->id, msg);
 	pthread_mutex_unlock(&table->print_mutex);
 }

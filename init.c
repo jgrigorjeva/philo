@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 19:00:36 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/11 18:28:30 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/06/12 00:28:58 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,8 +22,13 @@ t_table	*init_all(t_input *input)
 	if (!table)
 		return (NULL);
 	init_philo_arr(table);
-	if (init_mutex(table) || create_threads(table))
+	if (init_mutex(table))
 		return (NULL);
+	pthread_mutex_lock(&table->print_mutex);
+	if (create_threads(table))
+		return (NULL);
+	table->start_time = get_time();
+	pthread_mutex_unlock(&table->print_mutex);
 	return (table);
 }
 
@@ -41,8 +46,8 @@ t_table	*init_table(t_input *input)
 	table->ttd = input->ttd;
 	table->tte = input->tte;
 	table->tts = input->tts;
-	table->died_id = 0;
 	table->start_time = get_time();
+	table->died_id = 0;
 	table->philo_arr = malloc(sizeof(t_philo) * input->philo_nbr);
 	if (!table->philo_arr)
 		return (printf("Error allocating philo_arr\n"), NULL);
