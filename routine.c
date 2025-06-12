@@ -18,8 +18,9 @@ void	*monitor_routine(void *arg)
 			timestamp = now - table->start_time;
 			// printf("monitor: now %ld last fed %ld difference %ld ttd %d tte %d tts %d\n", \
 				// timestamp, table->philo_arr[i].last_fed, timestamp - table->philo_arr[i].last_fed, table->ttd, table->tte, table->tts);
-			if (timestamp - table->philo_arr[i].last_fed >= table->ttd)
+			if (timestamp - table->philo_arr[i].last_fed >= table->ttd && table->philo_nbr > 1)
 			{
+				// printf("philo died\n");
 				pthread_mutex_lock(&table->dead_mutex);
 				table->died_id = table->philo_arr[i].id;
 				pthread_mutex_unlock(&table->dead_mutex);
@@ -98,5 +99,6 @@ void	handle_one_philo(t_philo *philo)
 	print_status(philo, "is thinking");
 	print_status(philo, "has taken a fork");
 	ft_usleep(philo->table->ttd);
+	print_status(philo, "died");
 	philo->table->died_id = 1;
 }

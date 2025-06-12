@@ -1,11 +1,8 @@
-0 100 is thinking
-0 100 has taken right fork
-0 100 has taken left fork
-0 100 is eating
 0 2 is thinking
 0 2 has taken right fork
 0 2 has taken left fork
 0 2 is eating
+0 1 is thinking
 0 3 is thinking
 0 3 has taken left fork
 0 4 is thinking
@@ -23,729 +20,2555 @@
 0 9 has taken left fork
 0 9 has taken right fork
 0 9 is eating
-1 10 is thinking
-1 11 is thinking
-1 11 has taken left fork
-1 11 has taken right fork
-1 11 is eating
-1 12 is thinking
-1 13 is thinking
-1 13 has taken left fork
-1 13 has taken right fork
-1 13 is eating
-1 14 is thinking
-1 15 is thinking
-1 15 has taken left fork
-1 15 has taken right fork
-1 15 is eating
-1 17 is thinking
-1 17 has taken left fork
-1 18 is thinking
-1 17 has taken right fork
-1 17 is eating
-1 19 is thinking
-1 19 has taken left fork
-1 19 has taken right fork
-1 20 is thinking
-1 19 is eating
-1 21 is thinking
-1 21 has taken left fork
-1 21 has taken right fork
-1 21 is eating
-1 23 is thinking
-1 23 has taken left fork
-1 23 has taken right fork
-1 23 is eating
-1 24 is thinking
-1 25 is thinking
-1 25 has taken left fork
-1 25 has taken right fork
-1 25 is eating
-1 26 is thinking
-2 27 is thinking
-2 28 is thinking
-2 30 is thinking
-2 31 is thinking
-2 31 has taken left fork
-2 31 has taken right fork
-2 31 is eating
-2 30 has taken right fork
-2 33 is thinking
-2 33 has taken left fork
-2 33 has taken right fork
-2 33 is eating
-2 34 is thinking
-2 35 is thinking
-2 35 has taken left fork
-2 35 has taken right fork
-2 35 is eating
-2 36 is thinking
-2 37 is thinking
-2 37 has taken left fork
-2 37 has taken right fork
-2 37 is eating
-2 38 is thinking
-2 39 is thinking
-2 39 has taken left fork
-2 39 has taken right fork
-2 39 is eating
-2 40 is thinking
-2 41 is thinking
-2 41 has taken left fork
-2 41 has taken right fork
-2 41 is eating
-2 42 is thinking
-2 32 is thinking
-2 43 is thinking
-2 43 has taken left fork
-2 43 has taken right fork
-2 43 is eating
-2 44 is thinking
-3 45 is thinking
-3 45 has taken left fork
-3 45 has taken right fork
-3 45 is eating
-3 46 is thinking
-3 47 is thinking
-3 47 has taken left fork
-3 47 has taken right fork
-3 47 is eating
-3 48 is thinking
-3 49 is thinking
-3 49 has taken left fork
-3 49 has taken right fork
-3 49 is eating
-3 50 is thinking
-3 51 is thinking
-3 51 has taken left fork
-3 51 has taken right fork
-3 51 is eating
-3 52 is thinking
-3 54 is thinking
-3 54 has taken right fork
-3 54 has taken left fork
-3 54 is eating
-3 55 is thinking
-3 55 has taken left fork
-3 56 is thinking
-3 58 is thinking
-3 58 has taken right fork
-3 58 has taken left fork
-3 58 is eating
-3 59 is thinking
-3 60 is thinking
-3 60 has taken right fork
-3 60 has taken left fork
-3 60 is eating
-3 61 is thinking
-3 61 has taken left fork
-3 62 is thinking
-4 63 is thinking
-4 63 has taken left fork
-4 63 has taken right fork
-4 63 is eating
-4 64 is thinking
-4 65 is thinking
-4 53 is thinking
-4 66 is thinking
-4 66 has taken right fork
-4 66 has taken left fork
-4 66 is eating
-4 67 is thinking
-4 67 has taken left fork
-4 68 is thinking
-4 69 is thinking
-4 69 has taken left fork
-4 69 has taken right fork
-4 69 is eating
-4 70 is thinking
-4 71 is thinking
-4 71 has taken left fork
-4 71 has taken right fork
-4 71 is eating
-4 29 is thinking
-4 72 is thinking
-4 73 is thinking
-4 73 has taken left fork
-4 73 has taken right fork
-4 73 is eating
-4 74 is thinking
-4 57 is thinking
-4 75 is thinking
-4 75 has taken left fork
-4 75 has taken right fork
-4 75 is eating
-4 88 is thinking
-4 76 is thinking
-4 77 is thinking
-4 77 has taken left fork
-4 77 has taken right fork
-4 77 is eating
-4 78 is thinking
-4 88 has taken right fork
-4 88 has taken left fork
-4 88 is eating
-4 79 is thinking
-4 79 has taken left fork
-4 79 has taken right fork
-4 79 is eating
-5 80 is thinking
-5 81 is thinking
-5 82 is thinking
-5 82 has taken right fork
-5 82 has taken left fork
-5 82 is eating
-5 83 is thinking
-5 83 has taken left fork
-5 84 is thinking
-5 85 is thinking
-5 85 has taken left fork
-5 85 has taken right fork
-5 85 is eating
-5 86 is thinking
-6 87 is thinking
-7 89 is thinking
-7 89 has taken left fork
-7 90 is thinking
-8 91 is thinking
-8 91 has taken left fork
-8 91 has taken right fork
-8 91 is eating
-8 92 is thinking
-8 93 is thinking
-8 93 has taken left fork
-8 93 has taken right fork
-8 93 is eating
-8 94 is thinking
-8 95 is thinking
-8 95 has taken left fork
-8 95 has taken right fork
-8 95 is eating
-8 96 is thinking
-8 97 is thinking
-8 97 has taken left fork
-8 97 has taken right fork
-8 97 is eating
-8 98 is thinking
-8 99 is thinking
-8 1 is thinking
-8 16 is thinking
-8 22 is thinking
-8 27 has taken left fork
-8 27 has taken right fork
-8 27 is eating
-100 100 has put down both forks
-100 100 is sleeping
-100 7 has put down both forks
-100 7 is sleeping
-100 2 has put down both forks
-100 2 is sleeping
+0 10 is thinking
+0 12 is thinking
+0 12 has taken right fork
+0 12 has taken left fork
+0 12 is eating
+0 11 is thinking
+0 13 is thinking
+0 13 has taken left fork
+0 14 is thinking
+0 15 is thinking
+0 15 has taken left fork
+0 15 has taken right fork
+0 15 is eating
+0 16 is thinking
+0 18 is thinking
+0 18 has taken right fork
+0 18 has taken left fork
+0 18 is eating
+0 17 is thinking
+0 19 is thinking
+0 19 has taken left fork
+0 20 is thinking
+0 21 is thinking
+0 21 has taken left fork
+0 21 has taken right fork
+0 21 is eating
+100 21 has put down both forks
+100 21 is sleeping
 100 9 has put down both forks
 100 9 is sleeping
+100 10 has taken right fork
+100 10 has taken left fork
+100 10 is eating
+100 7 has put down both forks
+100 7 is sleeping
 100 8 has taken right fork
 100 8 has taken left fork
 100 8 is eating
-100 3 has taken right fork
-100 3 is eating
-100 99 has taken left fork
-100 99 has taken right fork
-100 99 is eating
-100 10 has taken right fork
 100 5 has put down both forks
 100 5 is sleeping
+100 12 has put down both forks
+100 3 has taken right fork
+100 3 is eating
+100 13 has taken right fork
+100 18 has put down both forks
+100 18 is sleeping
+100 17 has taken left fork
+100 17 has taken right fork
 100 1 has taken left fork
+100 15 has put down both forks
+100 12 is sleeping
+100 16 has taken right fork
+100 15 is sleeping
+100 11 has taken left fork
+100 13 is eating
+100 17 is eating
 100 1 has taken right fork
 100 1 is eating
 100 6 has taken right fork
+100 2 has put down both forks
+100 19 has taken right fork
+100 19 is eating
+100 2 is sleeping
 100 6 has taken left fork
 100 6 is eating
-101 25 has put down both forks
-101 25 is sleeping
-101 11 has put down both forks
-101 11 is sleeping
-101 23 has put down both forks
-101 23 is sleeping
-101 21 has put down both forks
-101 10 has taken left fork
-101 21 is sleeping
-101 10 is eating
-101 13 has put down both forks
-101 13 is sleeping
-101 19 has put down both forks
-101 19 is sleeping
-101 20 has taken right fork
-101 20 has taken left fork
-101 20 is eating
-101 26 has taken right fork
-101 15 has put down both forks
-101 15 is sleeping
-101 17 has put down both forks
-101 17 is sleeping
-101 16 has taken right fork
-101 16 has taken left fork
-101 16 is eating
-101 22 has taken right fork
-101 22 has taken left fork
-101 22 is eating
-101 24 has taken right fork
-101 24 has taken left fork
-101 24 is eating
-101 12 has taken right fork
-101 12 has taken left fork
-101 12 is eating
-101 18 has taken right fork
-101 18 has taken left fork
-101 18 is eating
-101 14 has taken right fork
-101 14 has taken left fork
-101 14 is eating
-102 43 has put down both forks
-102 43 is sleeping
-102 35 has put down both forks
-102 35 is sleeping
-102 44 has taken right fork
-102 41 has put down both forks
-102 41 is sleeping
-102 33 has put down both forks
-102 33 is sleeping
-102 31 has put down both forks
-102 31 is sleeping
-102 30 has taken left fork
-102 30 is eating
-102 39 has put down both forks
-102 39 is sleeping
-102 32 has taken right fork
-102 32 has taken left fork
-102 32 is eating
-103 49 has put down both forks
-103 49 is sleeping
-103 60 has put down both forks
-103 60 is sleeping
-103 58 has put down both forks
-103 58 is sleeping
-103 51 has put down both forks
-103 51 is sleeping
-103 57 has taken left fork
-103 57 has taken right fork
-103 57 is eating
-103 52 has taken right fork
-103 52 has taken left fork
-103 52 is eating
-103 54 has put down both forks
-103 54 is sleeping
-103 45 has put down both forks
-103 45 is sleeping
-103 53 has taken left fork
-103 47 has put down both forks
-103 47 is sleeping
-103 48 has taken right fork
-103 48 has taken left fork
-103 48 is eating
-103 44 has taken left fork
-103 44 is eating
-103 37 has put down both forks
-103 37 is sleeping
-103 55 has taken right fork
-103 55 is eating
-104 75 has put down both forks
-104 75 is sleeping
-104 61 has taken right fork
-104 61 is eating
-104 66 has put down both forks
-104 66 is sleeping
-104 69 has put down both forks
-104 69 is sleeping
-104 36 has taken right fork
-104 36 has taken left fork
-104 36 is eating
-104 65 has taken left fork
-104 65 has taken right fork
-104 65 is eating
-104 70 has taken right fork
-104 40 has taken right fork
-104 40 has taken left fork
-104 40 is eating
-104 79 has put down both forks
-104 79 is sleeping
-104 76 has taken right fork
-104 59 has taken left fork
-104 59 has taken right fork
-104 59 is eating
-104 63 has put down both forks
-104 63 is sleeping
-104 34 has taken right fork
-104 34 has taken left fork
-104 34 is eating
-104 70 has taken left fork
-104 71 has put down both forks
-104 71 is sleeping
-104 46 has taken right fork
-104 46 has taken left fork
-104 46 is eating
-104 38 has taken right fork
-104 38 has taken left fork
-104 38 is eating
-104 80 has taken right fork
-104 80 has taken left fork
-104 80 is eating
-104 78 has taken right fork
-104 78 has taken left fork
-104 78 is eating
-104 76 has taken left fork
-104 76 is eating
-104 70 is eating
-104 77 has put down both forks
-104 77 is sleeping
-104 72 has taken right fork
-104 42 has taken right fork
-104 42 has taken left fork
-104 42 is eating
-104 73 has put down both forks
-104 73 is sleeping
-104 72 has taken left fork
-104 72 is eating
-106 85 has put down both forks
-106 85 is sleeping
-106 50 has taken right fork
-106 50 has taken left fork
-106 50 is eating
-106 67 has taken right fork
-106 67 is eating
-107 64 has taken right fork
-107 86 has taken right fork
-107 86 has taken left fork
-107 86 is eating
-107 74 has taken right fork
-107 74 has taken left fork
-107 74 is eating
-108 93 has put down both forks
-108 95 has put down both forks
-108 95 is sleeping
-108 96 has taken right fork
-108 93 is sleeping
-108 88 has put down both forks
-108 88 is sleeping
-108 94 has taken right fork
-108 94 has taken left fork
-108 94 is eating
-109 87 has taken left fork
-109 96 has taken left fork
-109 96 is eating
-109 97 has put down both forks
-109 97 is sleeping
-109 98 has taken right fork
-110 89 has taken right fork
-110 89 is eating
-110 91 has put down both forks
-110 91 is sleeping
-110 92 has taken right fork
-110 92 has taken left fork
-110 92 is eating
-114 27 has put down both forks
-114 27 is sleeping
-115 26 has taken left fork
-115 26 is eating
-115 28 has taken right fork
-115 28 has taken left fork
-115 28 is eating
-122 82 has put down both forks
-122 82 is sleeping
-124 83 has taken right fork
-124 83 is eating
-125 81 has taken left fork
-200 6 has put down both forks
-200 6 is sleeping
-200 3 has put down both forks
-200 99 has put down both forks
-200 99 is sleeping
 200 8 has put down both forks
 200 8 is sleeping
-200 100 is thinking
-200 100 has taken right fork
-200 3 is sleeping
-200 7 is thinking
-200 7 has taken left fork
-200 7 has taken right fork
-200 7 is eating
-200 1 has put down both forks
-200 1 is sleeping
-200 100 has taken left fork
-200 100 is eating
-200 5 is thinking
-200 5 has taken left fork
-200 5 has taken right fork
-200 5 is eating
-200 98 has taken left fork
-200 98 is eating
+200 13 has put down both forks
+200 14 has taken right fork
 200 4 has taken right fork
-200 2 is thinking
-200 2 has taken right fork
-200 2 has taken left fork
-200 2 is eating
-200 9 is thinking
-201 15 is thinking
-201 17 is thinking
-201 16 has put down both forks
-201 16 is sleeping
-201 15 has taken left fork
-201 19 is thinking
-201 21 is thinking
-201 18 has put down both forks
-201 18 is sleeping
-201 17 has taken left fork
-201 17 has taken right fork
-201 17 is eating
-201 13 is thinking
-201 10 has put down both forks
-201 10 is sleeping
-202 25 is thinking
-202 33 is thinking
-202 43 is thinking
-202 31 is thinking
-202 32 has put down both forks
-202 14 has put down both forks
-202 32 is sleeping
-202 14 is sleeping
-202 39 is thinking
-202 13 has taken left fork
-202 11 is thinking
-202 31 has taken left fork
-202 15 has taken right fork
-202 15 is eating
-202 21 has taken left fork
-202 41 is thinking
-202 22 has put down both forks
-202 22 is sleeping
-202 23 is thinking
-202 12 has put down both forks
-202 12 is sleeping
-202 35 is thinking
-202 13 has taken right fork
-202 13 is eating
-203 51 is thinking
-203 60 is thinking
-203 53 has taken right fork
-203 53 is eating
-203 49 is thinking
-203 51 has taken left fork
-203 54 is thinking
-203 44 has put down both forks
-203 44 is sleeping
-203 37 is thinking
-203 52 has put down both forks
-203 52 is sleeping
-203 56 has taken right fork
-203 56 has taken left fork
-203 57 has put down both forks
-203 57 is sleeping
-203 56 is eating
-204 59 has put down both forks
-204 69 is thinking
-204 75 is thinking
-204 77 is thinking
-204 66 is thinking
-204 36 has put down both forks
-204 46 has put down both forks
-204 46 is sleeping
-204 60 has taken right fork
-204 63 is thinking
-204 60 has taken left fork
-204 60 is eating
-204 78 has put down both forks
-204 78 is sleeping
-204 65 has put down both forks
-204 65 is sleeping
-204 77 has taken left fork
-204 70 has put down both forks
-204 61 has put down both forks
-204 70 is sleeping
-204 61 is sleeping
-204 66 has taken right fork
-204 42 has put down both forks
-204 38 has put down both forks
-204 38 is sleeping
-204 41 has taken left fork
-204 72 has put down both forks
-204 72 is sleeping
-204 62 has taken right fork
-204 62 has taken left fork
-204 62 is eating
-204 42 is sleeping
-204 64 has taken left fork
-204 47 is thinking
-204 64 is eating
-204 45 is thinking
-204 45 has taken left fork
-204 45 has taken right fork
-204 45 is eating
-204 33 has taken left fork
-204 33 has taken right fork
-204 33 is eating
-204 77 has taken right fork
-204 75 has taken left fork
-204 77 is eating
-204 76 has put down both forks
-204 76 is sleeping
-204 36 is sleeping
-204 79 is thinking
-204 48 has put down both forks
-204 48 is sleeping
-204 47 has taken left fork
-204 47 has taken right fork
-204 47 is eating
-204 35 has taken left fork
-204 35 has taken right fork
-204 35 is eating
-204 43 has taken left fork
-204 43 has taken right fork
-204 43 is eating
-204 9 has taken left fork
-204 9 has taken right fork
-204 9 is eating
-204 20 has put down both forks
-204 20 is sleeping
-204 37 has taken left fork
-204 11 has taken left fork
-204 11 has taken right fork
-204 11 is eating
-204 69 has taken left fork
-204 69 has taken right fork
-204 69 is eating
-204 37 has taken right fork
-204 37 is eating
-204 59 is sleeping
-204 81 has taken right fork
-204 80 has put down both forks
-204 81 is eating
-204 21 has taken right fork
-204 21 is eating
-205 80 is sleeping
-205 58 is thinking
-205 58 has taken right fork
-205 58 has taken left fork
-205 58 is eating
-205 79 has taken left fork
-205 79 has taken right fork
-205 79 is eating
-205 41 has taken right fork
-205 41 is eating
-205 73 is thinking
-205 71 is thinking
-205 71 has taken left fork
-205 71 has taken right fork
-205 71 is eating
-205 39 has taken left fork
-205 39 has taken right fork
-205 39 is eating
-206 67 has put down both forks
-206 67 is sleeping
-206 68 has taken right fork
-206 55 has put down both forks
-206 55 is sleeping
-206 30 has put down both forks
-206 30 is sleeping
-206 31 has taken right fork
-206 31 is eating
-206 29 has taken left fork
-206 34 has put down both forks
-206 34 is sleeping
-206 19 has taken left fork
-207 75 has taken right fork
-207 75 is eating
-207 50 has put down both forks
-207 50 is sleeping
-207 73 has taken left fork
-207 73 has taken right fork
-207 73 is eating
-207 49 has taken left fork
-207 49 has taken right fork
-207 49 is eating
-207 74 has put down both forks
-207 51 has taken right fork
-207 51 is eating
-207 74 is sleeping
-207 40 has put down both forks
-207 40 is sleeping
-207 19 has taken right fork
-207 19 is eating
-208 94 has put down both forks
-208 94 is sleeping
-208 93 is thinking
-208 93 has taken left fork
-208 86 has put down both forks
-208 86 is sleeping
-208 66 has taken left fork
-208 66 is eating
-208 87 has taken right fork
-208 87 is eating
-208 95 is thinking
-209 88 is thinking
-209 95 has taken left fork
-209 95 has taken right fork
-209 95 is eating
-209 96 has put down both forks
-209 96 is sleeping
-210 91 is thinking
-210 92 has put down both forks
-210 92 is sleeping
-210 93 has taken right fork
-210 93 is eating
-210 90 has taken right fork
-210 90 has taken left fork
-210 90 is eating
-210 89 has put down both forks
-210 89 is sleeping
-210 97 is thinking
-210 85 is thinking
-211 85 has taken left fork
-211 85 has taken right fork
-211 85 is eating
-212 91 has taken left fork
-214 27 is thinking
-215 28 has put down both forks
-215 28 is sleeping
-215 27 has taken left fork
-216 26 has put down both forks
-216 26 is sleeping
-217 24 has put down both forks
-217 24 is sleeping
-217 25 has taken left fork
-217 25 has taken right fork
-217 25 is eating
-218 23 has taken left fork
-218 23 has taken right fork
-218 23 is eating
-218 27 has taken right fork
-218 27 is eating
-218 29 has taken right fork
-218 29 is eating
-222 82 is thinking
-224 84 has taken right fork
-224 83 has put down both forks
-224 83 is sleeping
-300 7 has put down both forks
-300 7 is sleeping
-300 1 is thinking
-300 2 has put down both forks
-300 6 is thinking
-300 8 is thinking
-300 8 has taken right fork
-300 6 has taken right fork
-300 6 has taken left fork
-300 6 is eating
-300 4 has taken left fork
-300 4 is eating
-300 3 is thinking
-300 1 has taken left fork
-300 100 has put down both forks
-300 100 is sleeping
-300 98 has put down both forks
-300 98 is sleeping
-300 97 has taken left fork
-300 97 has taken right fork
-300 97 is eating
-300 2 is sleeping
-300 1 has taken right fork
-300 1 is eating
-300 68 died
-301 5 has put down both forks
+200 4 has taken left fork
+200 14 has taken left fork
+200 13 is sleeping
+200 14 is eating
+200 10 has put down both forks
+200 3 has put down both forks
+200 10 is sleeping
+200 4 is eating
+200 20 has taken right fork
+200 16 has taken left fork
+200 20 has taken left fork
+200 17 has put down both forks
+200 11 has taken right fork
+200 17 is sleeping
+200 11 is eating
+200 16 is eating
+200 20 is eating
+200 19 has put down both forks
+200 6 has put down both forks
+200 6 is sleeping
+200 1 has put down both forks
+200 3 is sleeping
+200 1 is sleeping
+200 19 is sleeping
+300 20 has put down both forks
+300 4 has put down both forks
+300 11 has put down both forks
+300 4 is sleeping
+300 16 has put down both forks
+300 7 is thinking
+300 14 has put down both forks
+300 9 is thinking
+300 11 is sleeping
+300 9 has taken left fork
+300 14 is sleeping
+300 5 is thinking
+300 21 is thinking
+300 2 is thinking
+300 12 is thinking
+300 7 has taken left fork
+300 7 has taken right fork
+300 7 is eating
+300 16 is sleeping
+300 5 has taken left fork
+300 5 has taken right fork
+300 5 is eating
+300 15 is thinking
+300 15 has taken left fork
+300 15 has taken right fork
+300 15 is eating
+300 21 has taken left fork
+300 21 has taken right fork
+300 21 is eating
+300 2 has taken right fork
+300 2 has taken left fork
+300 2 is eating
+300 12 has taken right fork
+300 12 has taken left fork
+300 12 is eating
+300 9 has taken right fork
+300 9 is eating
+300 18 is thinking
+300 18 has taken right fork
+300 18 has taken left fork
+300 18 is eating
+300 20 is sleeping
+400 7 has put down both forks
+400 6 is thinking
+400 3 is thinking
+400 1 is thinking
+400 3 has taken left fork
+400 10 is thinking
+400 7 is sleeping
+400 19 is thinking
+400 10 has taken right fork
+400 6 has taken right fork
+400 10 has taken left fork
+400 19 has taken left fork
+400 1 has taken left fork
+400 17 is thinking
+400 1 has taken right fork
+400 9 has put down both forks
+400 15 has put down both forks
+400 18 has put down both forks
+400 15 is sleeping
+400 18 is sleeping
+400 17 has taken left fork
+400 17 has taken right fork
+400 10 is eating
+400 17 is eating
+400 1 is eating
+400 9 is sleeping
+400 5 has put down both forks
+400 5 is sleeping
+400 21 has put down both forks
+400 21 is sleeping
+400 19 has taken right fork
+400 19 is eating
+400 3 has taken right fork
+400 3 is eating
+400 6 has taken left fork
+400 6 is eating
+400 2 has put down both forks
+400 2 is sleeping
+400 13 is thinking
+400 13 has taken left fork
+400 13 has taken right fork
+400 13 is eating
+400 8 is thinking
+400 8 has taken right fork
+400 8 has taken left fork
+400 8 is eating
+400 12 has put down both forks
+400 12 is sleeping
+500 11 is thinking
+500 10 has put down both forks
+500 16 is thinking
+500 20 is thinking
+500 11 has taken left fork
+500 6 has put down both forks
+500 3 has put down both forks
+500 16 has taken right fork
+500 14 is thinking
+500 16 has taken left fork
+500 11 has taken right fork
+500 1 has put down both forks
+500 8 has put down both forks
+500 17 has put down both forks
+500 19 has put down both forks
+500 4 is thinking
+500 13 has put down both forks
+500 17 is sleeping
+500 4 has taken right fork
+500 13 is sleeping
+500 6 is sleeping
+500 4 has taken left fork
+500 4 is eating
+500 19 is sleeping
+500 11 is eating
+500 20 has taken right fork
+500 14 has taken right fork
+500 20 has taken left fork
+500 14 has taken left fork
+500 20 is eating
+500 14 is eating
+500 10 is sleeping
+500 1 is sleeping
+500 3 is sleeping
+500 8 is sleeping
+500 16 is eating
+600 11 has put down both forks
+600 11 is sleeping
+600 16 has put down both forks
+600 12 is thinking
+600 2 is thinking
+600 5 is thinking
+600 12 has taken right fork
+600 15 is thinking
+600 16 is sleeping
+600 15 has taken left fork
+600 7 is thinking
+600 9 is thinking
+600 7 has taken left fork
+600 9 has taken left fork
+600 7 has taken right fork
+600 9 has taken right fork
+600 12 has taken left fork
+600 9 is eating
+600 18 is thinking
+600 14 has put down both forks
+600 20 has put down both forks
+600 5 has taken left fork
+600 4 has put down both forks
+600 7 is eating
+600 4 is sleeping
+600 21 is thinking
+600 21 has taken left fork
+600 21 has taken right fork
+600 21 is eating
+600 15 has taken right fork
+600 15 is eating
+600 18 has taken right fork
+600 18 has taken left fork
+600 18 is eating
+600 14 is sleeping
+600 20 is sleeping
+600 5 has taken right fork
+600 5 is eating
+600 12 is eating
+600 2 has taken right fork
+600 2 has taken left fork
+600 2 is eating
+700 7 has put down both forks
+700 7 is sleeping
+700 19 is thinking
+700 19 has taken left fork
+700 1 is thinking
+700 1 has taken left fork
+700 8 is thinking
+700 6 is thinking
+700 3 is thinking
+700 2 has put down both forks
+700 8 has taken right fork
+700 2 is sleeping
+700 18 has put down both forks
+700 3 has taken left fork
+700 19 has taken right fork
+700 19 is eating
+700 18 is sleeping
+700 13 is thinking
+700 12 has put down both forks
+700 13 has taken left fork
+700 13 has taken right fork
+700 13 is eating
+700 15 has put down both forks
+700 5 has put down both forks
+700 3 has taken right fork
+700 8 has taken left fork
+700 8 is eating
+700 17 is thinking
+700 10 is thinking
+700 12 is sleeping
+700 15 is sleeping
+700 9 has put down both forks
+700 21 has put down both forks
+700 5 is sleeping
+700 21 is sleeping
+700 6 has taken right fork
+700 3 is eating
+700 1 has taken right fork
+700 9 is sleeping
+700 1 is eating
+700 10 has taken right fork
+700 6 has taken left fork
+700 10 has taken left fork
+700 17 has taken left fork
+700 17 has taken right fork
+700 17 is eating
+700 10 is eating
+700 6 is eating
+800 3 has put down both forks
+800 3 is sleeping
+800 20 is thinking
+800 13 has put down both forks
+800 6 has put down both forks
+800 13 is sleeping
+800 6 is sleeping
+800 4 is thinking
+800 14 is thinking
+800 4 has taken right fork
+800 11 is thinking
+800 4 has taken left fork
+800 11 has taken left fork
+800 4 is eating
+800 11 has taken right fork
+800 11 is eating
+800 10 has put down both forks
+800 1 has put down both forks
+800 1 is sleeping
+800 17 has put down both forks
+800 14 has taken right fork
+800 17 is sleeping
+800 14 has taken left fork
+800 14 is eating
+800 16 is thinking
+800 10 is sleeping
+800 19 has put down both forks
+800 20 has taken right fork
+800 20 has taken left fork
+800 20 is eating
+800 16 has taken right fork
+800 16 has taken left fork
+800 16 is eating
+800 19 is sleeping
+800 8 has put down both forks
+800 8 is sleeping
+900 9 is thinking
+900 21 is thinking
+900 9 has taken left fork
+900 9 has taken right fork
+900 21 has taken left fork
+900 20 has put down both forks
+900 2 is thinking
+900 20 is sleeping
+900 18 is thinking
+900 4 has put down both forks
+900 14 has put down both forks
+900 4 is sleeping
+900 14 is sleeping
+900 11 has put down both forks
+900 9 is eating
+900 11 is sleeping
+900 18 has taken right fork
+900 16 has put down both forks
+900 16 is sleeping
+900 12 is thinking
+900 18 has taken left fork
+900 12 has taken right fork
+900 18 is eating
+900 7 is thinking
+900 15 is thinking
+900 21 has taken right fork
+900 2 has taken right fork
+900 21 is eating
+900 2 has taken left fork
+900 2 is eating
+900 5 is thinking
+900 5 has taken left fork
+900 5 has taken right fork
+900 5 is eating
+900 12 has taken left fork
+900 12 is eating
+900 7 has taken left fork
+900 7 has taken right fork
+900 7 is eating
+900 15 has taken left fork
+900 15 has taken right fork
+900 15 is eating
+1000 2 has put down both forks
+1000 7 has put down both forks
+1000 7 is sleeping
+1000 13 is thinking
+1000 19 is thinking
+1000 10 is thinking
+1000 3 is thinking
+1000 3 has taken left fork
+1000 12 has put down both forks
+1000 5 has put down both forks
+1000 8 is thinking
+1000 5 is sleeping
+1000 8 has taken right fork
+1000 1 is thinking
+1000 17 is thinking
+1000 8 has taken left fork
+1000 10 has taken right fork
+1000 1 has taken left fork
+1000 8 is eating
+1000 1 has taken right fork
+1000 17 has taken left fork
+1000 6 is thinking
+1000 10 has taken left fork
+1000 13 has taken left fork
+1000 15 has put down both forks
+1000 9 has put down both forks
+1000 2 is sleeping
+1000 15 is sleeping
+1000 9 is sleeping
+1000 13 has taken right fork
+1000 3 has taken right fork
+1000 13 is eating
+1000 17 has taken right fork
+1000 3 is eating
+1000 10 is eating
+1000 17 is eating
+1000 21 has put down both forks
+1000 1 is eating
+1000 21 is sleeping
+1000 6 has taken right fork
+1000 12 is sleeping
+1000 6 has taken left fork
+1000 6 is eating
+1000 19 has taken left fork
+1000 18 has put down both forks
+1000 18 is sleeping
+1000 19 has taken right fork
+1000 19 is eating
+1100 8 has put down both forks
+1100 8 is sleeping
+1100 13 has put down both forks
+1100 10 has put down both forks
+1100 16 is thinking
+1100 10 is sleeping
+1100 6 has put down both forks
+1100 1 has put down both forks
+1100 4 is thinking
+1100 16 has taken right fork
+1100 20 is thinking
+1100 14 is thinking
+1100 13 is sleeping
+1100 6 is sleeping
+1100 11 is thinking
+1100 1 is sleeping
+1100 19 has put down both forks
+1100 17 has put down both forks
+1100 14 has taken right fork
+1100 17 is sleeping
+1100 4 has taken right fork
+1100 11 has taken left fork
+1100 4 has taken left fork
+1100 3 has put down both forks
+1100 4 is eating
+1100 20 has taken right fork
+1100 3 is sleeping
+1100 20 has taken left fork
+1100 20 is eating
+1100 16 has taken left fork
+1100 14 has taken left fork
+1100 16 is eating
+1100 14 is eating
+1100 19 is sleeping
+1100 11 has taken right fork
+1100 11 is eating
+1200 20 has put down both forks
+1200 4 has put down both forks
+1200 4 is sleeping
+1200 5 is thinking
+1200 5 has taken left fork
+1200 5 has taken right fork
+1200 5 is eating
+1200 11 has put down both forks
+1200 11 is sleeping
+1200 20 is sleeping
+1200 16 has put down both forks
+1200 16 is sleeping
+1200 21 is thinking
+1200 21 has taken left fork
+1200 21 has taken right fork
+1200 21 is eating
+1200 7 is thinking
+1200 7 has taken left fork
+1200 7 has taken right fork
+1200 7 is eating
+1200 12 is thinking
+1200 12 has taken right fork
+1200 12 has taken left fork
+1200 12 is eating
+1200 14 has put down both forks
+1200 14 is sleeping
+1200 18 is thinking
+1200 18 has taken right fork
+1200 18 has taken left fork
+1200 18 is eating
+1200 9 is thinking
+1200 9 has taken left fork
+1200 9 has taken right fork
+1200 9 is eating
+1200 2 is thinking
+1200 15 is thinking
+1200 15 has taken left fork
+1200 15 has taken right fork
+1200 15 is eating
+1200 2 has taken right fork
+1200 2 has taken left fork
+1200 2 is eating
+1300 21 has put down both forks
+1300 21 is sleeping
+1300 15 has put down both forks
+1300 19 is thinking
+1300 18 has put down both forks
+1300 8 is thinking
+1300 12 has put down both forks
+1300 1 is thinking
+1300 12 is sleeping
+1300 6 is thinking
+1300 9 has put down both forks
+1300 10 is thinking
+1300 9 is sleeping
+1300 19 has taken left fork
+1300 13 is thinking
+1300 8 has taken right fork
+1300 13 has taken left fork
+1300 7 has put down both forks
+1300 13 has taken right fork
+1300 17 is thinking
+1300 13 is eating
+1300 5 has put down both forks
+1300 5 is sleeping
+1300 18 is sleeping
+1300 19 has taken right fork
+1300 19 is eating
+1300 8 has taken left fork
+1300 15 is sleeping
+1300 3 is thinking
+1300 6 has taken right fork
+1300 3 has taken left fork
+1300 3 has taken right fork
+1300 3 is eating
+1300 6 has taken left fork
+1300 7 is sleeping
+1300 2 has put down both forks
+1300 2 is sleeping
+1300 10 has taken right fork
+1300 8 is eating
+1300 10 has taken left fork
+1300 10 is eating
+1300 6 is eating
+1300 17 has taken left fork
+1300 17 has taken right fork
+1300 17 is eating
+1300 1 has taken left fork
+1300 1 has taken right fork
+1300 1 is eating
+1400 8 has put down both forks
+1400 8 is sleeping
+1400 1 has put down both forks
+1400 1 is sleeping
+1400 13 has put down both forks
+1400 13 is sleeping
+1400 14 is thinking
+1400 10 has put down both forks
+1400 14 has taken right fork
+1400 14 has taken left fork
+1400 14 is eating
+1400 19 has put down both forks
+1400 20 is thinking
+1400 19 is sleeping
+1400 20 has taken right fork
+1400 20 has taken left fork
+1400 20 is eating
+1400 4 is thinking
+1400 17 has put down both forks
+1400 17 is sleeping
+1400 16 is thinking
+1400 3 has put down both forks
+1400 16 has taken right fork
+1400 3 is sleeping
+1400 16 has taken left fork
+1400 4 has taken right fork
+1400 6 has put down both forks
+1400 16 is eating
+1400 6 is sleeping
+1400 4 has taken left fork
+1400 4 is eating
+1400 10 is sleeping
+1400 11 is thinking
+1400 11 has taken left fork
+1400 11 has taken right fork
+1400 11 is eating
+1500 7 is thinking
+1500 18 is thinking
+1500 12 is thinking
+1500 2 is thinking
+1500 20 has put down both forks
+1500 7 has taken left fork
+1500 20 is sleeping
+1500 15 is thinking
+1500 7 has taken right fork
+1500 18 has taken right fork
+1500 21 is thinking
+1500 18 has taken left fork
+1500 4 has put down both forks
+1500 15 has taken left fork
+1500 18 is eating
+1500 4 is sleeping
+1500 7 is eating
+1500 5 is thinking
+1500 21 has taken left fork
+1500 5 has taken left fork
+1500 14 has put down both forks
+1500 11 has put down both forks
+1500 15 has taken right fork
+1500 12 has taken right fork
+1500 11 is sleeping
+1500 15 is eating
+1500 16 has put down both forks
+1500 12 has taken left fork
+1500 14 is sleeping
+1500 5 has taken right fork
+1500 12 is eating
+1500 16 is sleeping
+1500 9 is thinking
+1500 21 has taken right fork
+1500 2 has taken right fork
+1500 9 has taken left fork
+1500 2 has taken left fork
+1500 2 is eating
+1500 9 has taken right fork
+1500 5 is eating
+1500 9 is eating
+1500 21 is eating
+1600 9 has put down both forks
+1600 9 is sleeping
+1600 13 is thinking
+1600 13 has taken left fork
+1600 13 has taken right fork
+1600 13 is eating
+1600 15 has put down both forks
+1600 18 has put down both forks
+1600 3 is thinking
+1600 12 has put down both forks
+1600 1 is thinking
+1600 12 is sleeping
+1600 8 is thinking
+1600 6 is thinking
+1600 10 is thinking
+1600 6 has taken right fork
+1600 15 is sleeping
+1600 10 has taken right fork
+1600 5 has put down both forks
+1600 3 has taken left fork
+1600 5 is sleeping
+1600 19 is thinking
+1600 17 is thinking
+1600 21 has put down both forks
+1600 2 has put down both forks
+1600 19 has taken left fork
+1600 8 has taken right fork
+1600 3 has taken right fork
+1600 8 has taken left fork
+1600 2 is sleeping
+1600 19 has taken right fork
+1600 10 has taken left fork
+1600 7 has put down both forks
+1600 6 has taken left fork
+1600 10 is eating
+1600 18 is sleeping
+1600 7 is sleeping
+1600 21 is sleeping
+1600 6 is eating
+1600 3 is eating
+1600 17 has taken left fork
+1600 17 has taken right fork
+1600 17 is eating
+1600 19 is eating
+1600 1 has taken left fork
+1600 1 has taken right fork
+1600 1 is eating
+1600 8 is eating
+1700 16 is thinking
+1700 16 has taken right fork
+1700 10 has put down both forks
+1700 17 has put down both forks
+1700 10 is sleeping
+1700 16 has taken left fork
+1700 17 is sleeping
+1700 16 is eating
+1700 4 is thinking
+1700 13 has put down both forks
+1700 20 is thinking
+1700 6 has put down both forks
+1700 14 is thinking
+1700 3 has put down both forks
+1700 8 has put down both forks
+1700 1 has put down both forks
+1700 13 is sleeping
+1700 1 is sleeping
+1700 6 is sleeping
+1700 11 is thinking
+1700 14 has taken right fork
+1700 3 is sleeping
+1700 11 has taken left fork
+1700 14 has taken left fork
+1700 19 has put down both forks
+1700 14 is eating
+1700 4 has taken right fork
+1700 4 has taken left fork
+1700 4 is eating
+1700 8 is sleeping
+1700 20 has taken right fork
+1700 19 is sleeping
+1700 11 has taken right fork
+1700 11 is eating
+1700 20 has taken left fork
+1700 20 is eating
+1800 20 has put down both forks
+1800 15 is thinking
+1800 21 is thinking
+1800 4 has put down both forks
+1800 2 is thinking
+1800 16 has put down both forks
+1800 2 has taken right fork
+1800 20 is sleeping
+1800 11 has put down both forks
+1800 14 has put down both forks
+1800 14 is sleeping
+1800 9 is thinking
+1800 9 has taken left fork
+1800 9 has taken right fork
+1800 4 is sleeping
+1800 9 is eating
+1800 15 has taken left fork
+1800 15 has taken right fork
+1800 15 is eating
+1800 16 is sleeping
+1800 21 has taken left fork
+1800 21 has taken right fork
+1800 21 is eating
+1800 11 is sleeping
+1800 7 is thinking
+1800 7 has taken left fork
+1800 7 has taken right fork
+1800 7 is eating
+1800 18 is thinking
+1800 18 has taken right fork
+1800 18 has taken left fork
+1800 18 is eating
+1800 2 has taken left fork
+1800 2 is eating
+1800 12 is thinking
+1800 12 has taken right fork
+1800 12 has taken left fork
+1800 12 is eating
+1800 5 is thinking
+1800 5 has taken left fork
+1800 5 has taken right fork
+1800 5 is eating
+1900 10 is thinking
+1900 15 has put down both forks
+1900 19 is thinking
+1900 18 has put down both forks
+1900 1 is thinking
+1900 1 has taken left fork
+1900 15 is sleeping
+1900 2 has put down both forks
+1900 2 is sleeping
+1900 5 has put down both forks
+1900 7 has put down both forks
+1900 6 is thinking
+1900 17 is thinking
+1900 21 has put down both forks
+1900 17 has taken left fork
+1900 10 has taken right fork
+1900 8 is thinking
+1900 10 has taken left fork
+1900 18 is sleeping
+1900 10 is eating
+1900 7 is sleeping
+1900 6 has taken right fork
+1900 6 has taken left fork
+1900 6 is eating
+1900 9 has put down both forks
+1900 12 has put down both forks
+1900 9 is sleeping
+1900 1 has taken right fork
+1900 12 is sleeping
+1900 1 is eating
+1900 21 is sleeping
+1900 19 has taken left fork
+1900 17 has taken right fork
+1900 17 is eating
+1900 8 has taken right fork
+1900 13 is thinking
+1900 19 has taken right fork
+1900 3 is thinking
+1900 19 is eating
+1900 3 has taken left fork
+1900 3 has taken right fork
+1900 3 is eating
+1900 5 is sleeping
+1900 13 has taken left fork
+1900 13 has taken right fork
+1900 13 is eating
+1900 8 has taken left fork
+1900 8 is eating
+2000 19 has put down both forks
+2000 8 has put down both forks
+2000 8 is sleeping
+2000 20 is thinking
+2000 20 has taken right fork
+2000 20 has taken left fork
+2000 20 is eating
+2000 17 has put down both forks
+2000 17 is sleeping
+2000 4 is thinking
+2000 19 is sleeping
+2000 3 has put down both forks
+2000 10 has put down both forks
+2000 13 has put down both forks
+2000 16 is thinking
+2000 13 is sleeping
+2000 1 has put down both forks
+2000 11 is thinking
+2000 11 has taken left fork
+2000 14 is thinking
+2000 14 has taken right fork
+2000 14 has taken left fork
+2000 14 is eating
+2000 16 has taken right fork
+2000 16 has taken left fork
+2000 16 is eating
+2000 3 is sleeping
+2000 4 has taken right fork
+2000 4 has taken left fork
+2000 4 is eating
+2000 10 is sleeping
+2000 1 is sleeping
+2000 11 has taken right fork
+2000 11 is eating
+2000 6 has put down both forks
+2000 6 is sleeping
+2100 18 is thinking
+2100 18 has taken right fork
+2100 18 has taken left fork
+2100 18 is eating
+2100 14 has put down both forks
+2100 14 is sleeping
+2100 20 has put down both forks
+2100 20 is sleeping
+2100 15 is thinking
+2100 15 has taken left fork
+2100 15 has taken right fork
+2100 15 is eating
+2100 12 is thinking
+2100 12 has taken right fork
+2100 12 has taken left fork
+2100 12 is eating
+2100 11 has put down both forks
+2100 11 is sleeping
+2100 5 is thinking
+2100 5 has taken left fork
+2100 5 has taken right fork
+2100 5 is eating
+2100 7 is thinking
+2100 7 has taken left fork
+2100 7 has taken right fork
+2100 7 is eating
+2100 4 has put down both forks
+2100 4 is sleeping
+2100 2 is thinking
+2100 2 has taken right fork
+2100 2 has taken left fork
+2100 2 is eating
+2100 21 is thinking
+2100 21 has taken left fork
+2100 21 has taken right fork
+2100 21 is eating
+2100 16 has put down both forks
+2100 16 is sleeping
+2100 9 is thinking
+2100 9 has taken left fork
+2100 9 has taken right fork
+2100 9 is eating
+2200 5 has put down both forks
+2200 5 is sleeping
+2200 15 has put down both forks
+2200 15 is sleeping
+2200 18 has put down both forks
+2200 18 is sleeping
+2200 2 has put down both forks
+2200 9 has put down both forks
+2200 17 is thinking
+2200 3 is thinking
+2200 6 is thinking
+2200 1 is thinking
+2200 6 has taken right fork
+2200 10 is thinking
+2200 1 has taken left fork
+2200 2 is sleeping
+2200 10 has taken right fork
+2200 10 has taken left fork
+2200 10 is eating
+2200 7 has put down both forks
+2200 7 is sleeping
+2200 3 has taken left fork
+2200 3 has taken right fork
+2200 3 is eating
+2200 9 is sleeping
+2200 12 has put down both forks
+2200 12 is sleeping
+2200 6 has taken left fork
+2200 6 is eating
+2200 21 has put down both forks
+2200 21 is sleeping
+2200 1 has taken right fork
+2200 1 is eating
+2200 8 is thinking
+2200 8 has taken right fork
+2200 8 has taken left fork
+2200 8 is eating
+2200 19 is thinking
+2200 19 has taken left fork
+2200 19 has taken right fork
+2200 19 is eating
+2200 13 is thinking
+2200 13 has taken left fork
+2200 13 has taken right fork
+2200 13 is eating
+2200 17 has taken left fork
+2200 17 has taken right fork
+2200 17 is eating
+2300 3 has put down both forks
+2300 3 is sleeping
+2300 13 has put down both forks
+2300 20 is thinking
+2300 20 has taken right fork
+2300 20 has taken left fork
+2300 20 is eating
+2300 8 has put down both forks
+2300 14 is thinking
+2300 14 has taken right fork
+2300 14 has taken left fork
+2300 17 has put down both forks
+2300 16 is thinking
+2300 17 is sleeping
+2300 16 has taken right fork
+2300 16 has taken left fork
+2300 16 is eating
+2300 19 has put down both forks
+2300 8 is sleeping
+2300 19 is sleeping
+2300 11 is thinking
+2300 11 has taken left fork
+2300 11 has taken right fork
+2300 11 is eating
+2300 14 is eating
+2300 13 is sleeping
+2300 4 is thinking
+2300 4 has taken right fork
+2300 4 has taken left fork
+2300 4 is eating
+2300 10 has put down both forks
+2300 10 is sleeping
+2300 6 has put down both forks
+2300 6 is sleeping
+2300 1 has put down both forks
+2300 1 is sleeping
+2400 11 has put down both forks
+2400 11 is sleeping
+2400 4 has put down both forks
+2400 4 is sleeping
+2400 20 has put down both forks
+2400 12 is thinking
+2400 21 is thinking
+2400 9 is thinking
+2400 14 has put down both forks
+2400 2 is thinking
+2400 2 has taken right fork
+2400 2 has taken left fork
+2400 2 is eating
+2400 5 is thinking
+2400 5 has taken left fork
+2400 5 has taken right fork
+2400 5 is eating
+2400 18 is thinking
+2400 16 has put down both forks
+2400 14 is sleeping
+2400 16 is sleeping
+2400 7 is thinking
+2400 7 has taken left fork
+2400 7 has taken right fork
+2400 9 has taken left fork
+2400 7 is eating
+2400 21 has taken left fork
+2400 9 has taken right fork
+2400 15 is thinking
+2400 21 has taken right fork
+2400 15 has taken left fork
+2400 12 has taken right fork
+2400 18 has taken right fork
+2400 12 has taken left fork
+2400 12 is eating
+2400 18 has taken left fork
+2400 20 is sleeping
+2400 21 is eating
+2400 18 is eating
+2400 9 is eating
+2400 15 has taken right fork
+2400 15 is eating
+2500 12 has put down both forks
+2500 21 has put down both forks
+2500 5 has put down both forks
+2500 5 is sleeping
+2500 21 is sleeping
+2500 3 is thinking
+2500 3 has taken left fork
+2500 3 has taken right fork
+2500 3 is eating
+2500 19 is thinking
+2500 19 has taken left fork
+2500 19 has taken right fork
+2500 19 is eating
+2500 12 is sleeping
+2500 8 is thinking
+2500 8 has taken right fork
+2500 8 has taken left fork
+2500 8 is eating
+2500 15 has put down both forks
+2500 15 is sleeping
+2500 6 is thinking
+2500 6 has taken right fork
+2500 6 has taken left fork
+2500 6 is eating
+2500 10 is thinking
+2500 10 has taken right fork
+2500 10 has taken left fork
+2500 10 is eating
+2500 17 is thinking
+2500 17 has taken left fork
+2500 17 has taken right fork
+2500 17 is eating
+2500 13 is thinking
+2500 13 has taken left fork
+2500 13 has taken right fork
+2500 13 is eating
+2500 2 has put down both forks
+2500 2 is sleeping
+2500 1 is thinking
+2500 1 has taken left fork
+2500 1 has taken right fork
+2500 1 is eating
+2500 18 has put down both forks
+2500 18 is sleeping
+2500 9 has put down both forks
+2500 9 is sleeping
+2500 7 has put down both forks
+2500 7 is sleeping
+2600 4 is thinking
+2600 4 has taken right fork
+2600 4 has taken left fork
+2600 4 is eating
+2600 6 has put down both forks
+2600 3 has put down both forks
+2600 6 is sleeping
+2600 11 is thinking
+2600 17 has put down both forks
+2600 14 is thinking
+2600 11 has taken left fork
+2600 16 is thinking
+2600 3 is sleeping
+2600 16 has taken right fork
+2600 16 has taken left fork
+2600 16 is eating
+2600 17 is sleeping
+2600 10 has put down both forks
+2600 1 has put down both forks
+2600 19 has put down both forks
+2600 1 is sleeping
+2600 11 has taken right fork
+2600 8 has put down both forks
+2600 11 is eating
+2600 8 is sleeping
+2600 13 has put down both forks
+2600 20 is thinking
+2600 10 is sleeping
+2600 13 is sleeping
+2600 20 has taken right fork
+2600 14 has taken right fork
+2600 19 is sleeping
+2600 14 has taken left fork
+2600 14 is eating
+2600 20 has taken left fork
+2600 20 is eating
+2700 16 has put down both forks
+2700 16 is sleeping
+2700 4 has put down both forks
+2700 11 has put down both forks
+2700 12 is thinking
+2700 14 has put down both forks
+2700 18 is thinking
+2700 14 is sleeping
+2700 4 is sleeping
+2700 7 is thinking
+2700 11 is sleeping
+2700 15 is thinking
+2700 20 has put down both forks
+2700 5 is thinking
+2700 20 is sleeping
+2700 21 is thinking
+2700 2 is thinking
+2700 9 is thinking
+2700 7 has taken left fork
+2700 2 has taken right fork
+2700 2 has taken left fork
+2700 2 is eating
+2700 15 has taken left fork
+2700 9 has taken left fork
+2700 9 has taken right fork
+2700 18 has taken right fork
+2700 12 has taken right fork
+2700 21 has taken left fork
+2700 18 has taken left fork
+2700 15 has taken right fork
+2700 7 has taken right fork
+2700 9 is eating
+2700 18 is eating
+2700 15 is eating
+2700 7 is eating
+2700 21 has taken right fork
+2700 5 has taken left fork
+2700 12 has taken left fork
+2700 12 is eating
+2700 5 has taken right fork
+2700 5 is eating
+2700 21 is eating
+2800 2 has put down both forks
+2800 2 is sleeping
+2800 8 is thinking
+2800 18 has put down both forks
+2800 18 is sleeping
+2800 15 has put down both forks
+2800 7 has put down both forks
+2800 15 is sleeping
+2800 7 is sleeping
+2800 8 has taken right fork
+2800 1 is thinking
+2800 17 is thinking
+2800 1 has taken left fork
+2800 13 is thinking
+2800 12 has put down both forks
+2800 3 is thinking
+2800 13 has taken left fork
+2800 5 has put down both forks
+2800 6 is thinking
+2800 3 has taken left fork
+2800 8 has taken left fork
+2800 8 is eating
+2800 13 has taken right fork
+2800 21 has put down both forks
+2800 3 has taken right fork
+2800 10 is thinking
+2800 21 is sleeping
+2800 9 has put down both forks
+2800 12 is sleeping
+2800 6 has taken right fork
+2800 19 is thinking
+2800 10 has taken right fork
+2800 1 has taken right fork
+2800 17 has taken left fork
+2800 10 has taken left fork
+2800 3 is eating
+2800 1 is eating
+2800 6 has taken left fork
+2800 13 is eating
+2800 5 is sleeping
+2800 19 has taken left fork
+2800 10 is eating
+2800 19 has taken right fork
+2800 17 has taken right fork
+2800 9 is sleeping
+2800 6 is eating
+2800 19 is eating
+2800 17 is eating
+2900 16 is thinking
+2900 16 has taken right fork
+2900 1 has put down both forks
+2900 1 is sleeping
+2900 17 has put down both forks
+2900 19 has put down both forks
+2900 16 has taken left fork
+2900 11 is thinking
+2900 19 is sleeping
+2900 3 has put down both forks
+2900 11 has taken left fork
+2900 8 has put down both forks
+2900 17 is sleeping
+2900 6 has put down both forks
+2900 10 has put down both forks
+2900 6 is sleeping
+2900 10 is sleeping
+2900 3 is sleeping
+2900 8 is sleeping
+2900 16 is eating
+2900 11 has taken right fork
+2900 11 is eating
+2900 4 is thinking
+2900 14 is thinking
+2900 20 is thinking
+2900 20 has taken right fork
+2900 20 has taken left fork
+2900 20 is eating
+2900 4 has taken right fork
+2900 4 has taken left fork
+2900 4 is eating
+2900 14 has taken right fork
+2900 14 has taken left fork
+2900 14 is eating
+2900 13 has put down both forks
+2900 13 is sleeping
+3000 9 is thinking
+3000 9 has taken left fork
+3000 9 has taken right fork
+3000 9 is eating
+3000 4 has put down both forks
+3000 4 is sleeping
+3000 20 has put down both forks
+3000 20 is sleeping
+3000 14 has put down both forks
+3000 2 is thinking
+3000 5 is thinking
+3000 14 is sleeping
+3000 5 has taken left fork
+3000 5 has taken right fork
+3000 5 is eating
+3000 18 is thinking
+3000 15 is thinking
+3000 21 is thinking
+3000 15 has taken left fork
+3000 15 has taken right fork
+3000 15 is eating
+3000 21 has taken left fork
+3000 12 is thinking
+3000 16 has put down both forks
+3000 16 is sleeping
+3000 18 has taken right fork
+3000 11 has put down both forks
+3000 18 has taken left fork
+3000 18 is eating
+3000 11 is sleeping
+3000 21 has taken right fork
+3000 2 has taken right fork
+3000 2 has taken left fork
+3000 2 is eating
+3000 21 is eating
+3000 12 has taken right fork
+3000 12 has taken left fork
+3000 12 is eating
+3000 7 is thinking
+3000 7 has taken left fork
+3000 7 has taken right fork
+3000 7 is eating
+3100 9 has put down both forks
+3100 13 is thinking
+3100 13 has taken left fork
+3100 9 is sleeping
+3100 5 has put down both forks
+3100 5 is sleeping
+3100 8 is thinking
+3100 17 is thinking
+3100 21 has put down both forks
+3100 3 is thinking
+3100 21 is sleeping
+3100 1 is thinking
+3100 17 has taken left fork
+3100 18 has put down both forks
+3100 17 has taken right fork
+3100 1 has taken left fork
+3100 8 has taken right fork
+3100 18 is sleeping
+3100 3 has taken left fork
+3100 15 has put down both forks
+3100 7 has put down both forks
+3100 12 has put down both forks
+3100 19 is thinking
+3100 12 is sleeping
+3100 2 has put down both forks
+3100 10 is thinking
+3100 1 has taken right fork
+3100 10 has taken right fork
+3100 2 is sleeping
+3100 10 has taken left fork
+3100 1 is eating
+3100 15 is sleeping
+3100 7 is sleeping
+3100 10 is eating
+3100 19 has taken left fork
+3100 13 has taken right fork
+3100 8 has taken left fork
+3100 13 is eating
+3100 3 has taken right fork
+3100 6 is thinking
+3100 19 has taken right fork
+3100 6 has taken right fork
+3100 17 is eating
+3100 19 is eating
+3100 8 is eating
+3100 3 is eating
+3100 6 has taken left fork
+3100 6 is eating
+3200 20 is thinking
+3200 3 has put down both forks
+3200 3 is sleeping
+3200 17 has put down both forks
+3200 17 is sleeping
+3200 14 is thinking
+3200 8 has put down both forks
+3200 8 is sleeping
+3200 13 has put down both forks
+3200 6 has put down both forks
+3200 4 is thinking
+3200 11 is thinking
+3200 10 has put down both forks
+3200 19 has put down both forks
+3200 1 has put down both forks
+3200 20 has taken right fork
+3200 19 is sleeping
+3200 20 has taken left fork
+3200 20 is eating
+3200 4 has taken right fork
+3200 6 is sleeping
+3200 11 has taken left fork
+3200 4 has taken left fork
+3200 11 has taken right fork
+3200 4 is eating
+3200 11 is eating
+3200 10 is sleeping
+3200 14 has taken right fork
+3200 13 is sleeping
+3200 14 has taken left fork
+3200 14 is eating
+3200 16 is thinking
+3200 16 has taken right fork
+3200 16 has taken left fork
+3200 16 is eating
+3200 1 is sleeping
+3300 18 is thinking
+3300 21 is thinking
+3300 21 has taken left fork
+3300 5 is thinking
+3300 18 has taken right fork
+3300 5 has taken left fork
+3300 18 has taken left fork
+3300 18 is eating
+3300 7 is thinking
+3300 7 has taken left fork
+3300 7 has taken right fork
+3300 7 is eating
+3300 16 has put down both forks
+3300 16 is sleeping
+3300 9 is thinking
+3300 9 has taken left fork
+3300 9 has taken right fork
+3300 9 is eating
+3300 20 has put down both forks
+3300 20 is sleeping
+3300 4 has put down both forks
+3300 4 is sleeping
+3300 12 is thinking
+3300 12 has taken right fork
+3300 12 has taken left fork
+3300 12 is eating
+3300 5 has taken right fork
+3300 5 is eating
+3300 15 is thinking
+3300 15 has taken left fork
+3300 15 has taken right fork
+3300 15 is eating
+3300 14 has put down both forks
+3300 14 is sleeping
+3300 21 has taken right fork
+3300 21 is eating
+3300 11 has put down both forks
+3300 11 is sleeping
+3300 2 is thinking
+3300 2 has taken right fork
+3300 2 has taken left fork
+3300 2 is eating
+3400 9 has put down both forks
+3400 9 is sleeping
+3400 6 is thinking
+3400 1 is thinking
+3400 3 is thinking
+3400 3 has taken left fork
+3400 18 has put down both forks
+3400 12 has put down both forks
+3400 12 is sleeping
+3400 21 has put down both forks
+3400 7 has put down both forks
+3400 21 is sleeping
+3400 10 is thinking
+3400 3 has taken right fork
+3400 10 has taken right fork
+3400 18 is sleeping
+3400 3 is eating
+3400 5 has put down both forks
+3400 13 is thinking
+3400 1 has taken left fork
+3400 13 has taken left fork
+3400 13 has taken right fork
+3400 13 is eating
+3400 17 is thinking
+3400 19 is thinking
+3400 7 is sleeping
+3400 6 has taken right fork
+3400 19 has taken left fork
+3400 6 has taken left fork
+3400 6 is eating
+3400 19 has taken right fork
+3400 10 has taken left fork
+3400 5 is sleeping
+3400 15 has put down both forks
+3400 10 is eating
+3400 15 is sleeping
+3400 1 has taken right fork
+3400 1 is eating
+3400 17 has taken left fork
+3400 19 is eating
+3400 2 has put down both forks
+3400 2 is sleeping
+3400 8 is thinking
+3400 8 has taken right fork
+3400 8 has taken left fork
+3400 8 is eating
+3400 17 has taken right fork
+3400 17 is eating
+3500 16 is thinking
+3500 17 has put down both forks
+3500 16 has taken right fork
+3500 11 is thinking
+3500 16 has taken left fork
+3500 17 is sleeping
+3500 19 has put down both forks
+3500 3 has put down both forks
+3500 11 has taken left fork
+3500 19 is sleeping
+3500 1 has put down both forks
+3500 16 is eating
+3500 20 is thinking
+3500 1 is sleeping
+3500 20 has taken right fork
+3500 20 has taken left fork
+3500 10 has put down both forks
+3500 13 has put down both forks
+3500 3 is sleeping
+3500 13 is sleeping
+3500 14 is thinking
+3500 14 has taken right fork
+3500 14 has taken left fork
+3500 20 is eating
+3500 14 is eating
+3500 4 is thinking
+3500 10 is sleeping
+3500 4 has taken right fork
+3500 8 has put down both forks
+3500 8 is sleeping
+3500 6 has put down both forks
+3500 6 is sleeping
+3500 11 has taken right fork
+3500 11 is eating
+3500 4 has taken left fork
+3500 4 is eating
+3600 15 is thinking
+3600 12 is thinking
+3600 21 is thinking
+3600 21 has taken left fork
+3600 21 has taken right fork
+3600 21 is eating
+3600 11 has put down both forks
+3600 5 is thinking
+3600 16 has put down both forks
+3600 5 has taken left fork
+3600 12 has taken right fork
+3600 16 is sleeping
+3600 11 is sleeping
+3600 14 has put down both forks
+3600 2 is thinking
+3600 9 is thinking
+3600 2 has taken right fork
+3600 5 has taken right fork
+3600 2 has taken left fork
+3600 12 has taken left fork
+3600 5 is eating
+3600 12 is eating
+3600 4 has put down both forks
+3600 4 is sleeping
+3600 2 is eating
+3600 14 is sleeping
+3600 7 is thinking
+3600 7 has taken left fork
+3600 7 has taken right fork
+3600 7 is eating
+3600 9 has taken left fork
+3600 9 has taken right fork
+3600 9 is eating
+3600 18 is thinking
+3600 18 has taken right fork
+3600 15 has taken left fork
+3600 15 has taken right fork
+3600 15 is eating
+3600 20 has put down both forks
+3600 20 is sleeping
+3600 18 has taken left fork
+3600 18 is eating
+3700 2 has put down both forks
+3700 2 is sleeping
+3700 12 has put down both forks
+3700 18 has put down both forks
+3700 12 is sleeping
+3700 18 is sleeping
+3700 21 has put down both forks
+3700 8 is thinking
+3700 21 is sleeping
+3700 3 is thinking
+3700 3 has taken left fork
+3700 3 has taken right fork
+3700 3 is eating
+3700 15 has put down both forks
+3700 15 is sleeping
+3700 19 is thinking
+3700 19 has taken left fork
+3700 19 has taken right fork
+3700 19 is eating
+3700 5 has put down both forks
+3700 5 is sleeping
+3700 13 is thinking
+3700 13 has taken left fork
+3700 13 has taken right fork
+3700 13 is eating
+3700 1 is thinking
+3700 1 has taken left fork
+3700 1 has taken right fork
+3700 1 is eating
+3700 6 is thinking
+3700 6 has taken right fork
+3700 6 has taken left fork
+3700 6 is eating
+3700 10 is thinking
+3700 10 has taken right fork
+3700 10 has taken left fork
+3700 10 is eating
+3700 9 has put down both forks
+3700 9 is sleeping
+3700 7 has put down both forks
+3700 7 is sleeping
+3700 17 is thinking
+3700 17 has taken left fork
+3700 17 has taken right fork
+3700 17 is eating
+3700 8 has taken right fork
+3700 8 has taken left fork
+3700 8 is eating
+3800 6 has put down both forks
+3800 20 is thinking
+3800 14 is thinking
+3800 19 has put down both forks
+3800 4 is thinking
+3800 11 is thinking
+3800 16 is thinking
+3800 6 is sleeping
+3800 8 has put down both forks
+3800 19 is sleeping
+3800 11 has taken left fork
+3800 11 has taken right fork
+3800 11 is eating
+3800 10 has put down both forks
+3800 10 is sleeping
+3800 17 has put down both forks
+3800 17 is sleeping
+3800 16 has taken right fork
+3800 16 has taken left fork
+3800 16 is eating
+3800 13 has put down both forks
+3800 13 is sleeping
+3800 1 has put down both forks
+3800 1 is sleeping
+3800 8 is sleeping
+3800 20 has taken right fork
+3800 20 has taken left fork
+3800 20 is eating
+3800 3 has put down both forks
+3800 3 is sleeping
+3800 4 has taken right fork
+3800 4 has taken left fork
+3800 4 is eating
+3800 14 has taken right fork
+3800 14 has taken left fork
+3800 14 is eating
+3900 4 has put down both forks
+3900 20 has put down both forks
+3900 16 has put down both forks
+3900 4 is sleeping
+3900 16 is sleeping
+3900 7 is thinking
+3900 18 is thinking
+3900 21 is thinking
+3900 18 has taken right fork
+3900 21 has taken left fork
+3900 20 is sleeping
+3900 21 has taken right fork
+3900 18 has taken left fork
+3900 5 is thinking
+3900 7 has taken left fork
+3900 5 has taken left fork
+3900 9 is thinking
+3900 14 has put down both forks
+3900 2 is thinking
+3900 14 is sleeping
+3900 21 is eating
+3900 12 is thinking
+3900 7 has taken right fork
+3900 5 has taken right fork
+3900 7 is eating
+3900 18 is eating
+3900 12 has taken right fork
+3900 12 has taken left fork
+3900 11 has put down both forks
+3900 15 is thinking
+3900 9 has taken left fork
+3900 12 is eating
+3900 2 has taken right fork
+3900 5 is eating
+3900 11 is sleeping
+3900 15 has taken left fork
+3900 15 has taken right fork
+3900 15 is eating
+3900 9 has taken right fork
+3900 9 is eating
+3900 2 has taken left fork
+3900 2 is eating
+4000 21 has put down both forks
+4000 7 has put down both forks
+4000 13 is thinking
+4000 6 is thinking
+4000 1 is thinking
+4000 21 is sleeping
+4000 12 has put down both forks
+4000 5 has put down both forks
+4000 18 has put down both forks
+4000 12 is sleeping
+4000 2 has put down both forks
+4000 5 is sleeping
+4000 7 is sleeping
+4000 10 is thinking
+4000 3 is thinking
+4000 13 has taken left fork
+4000 3 has taken left fork
+4000 6 has taken right fork
+4000 3 has taken right fork
+4000 19 is thinking
+4000 19 has taken left fork
+4000 15 has put down both forks
+4000 8 is thinking
+4000 15 is sleeping
+4000 8 has taken right fork
+4000 8 has taken left fork
+4000 8 is eating
+4000 10 has taken right fork
+4000 13 has taken right fork
+4000 13 is eating
+4000 9 has put down both forks
+4000 1 has taken left fork
+4000 17 is thinking
+4000 6 has taken left fork
+4000 17 has taken left fork
+4000 17 has taken right fork
+4000 6 is eating
+4000 3 is eating
+4000 18 is sleeping
+4000 10 has taken left fork
+4000 19 has taken right fork
+4000 10 is eating
+4000 19 is eating
+4000 9 is sleeping
+4000 1 has taken right fork
+4000 1 is eating
+4000 17 is eating
+4000 2 is sleeping
+4100 19 has put down both forks
+4100 19 is sleeping
+4100 1 has put down both forks
+4100 4 is thinking
+4100 4 has taken right fork
+4100 10 has put down both forks
+4100 10 is sleeping
+4100 8 has put down both forks
+4100 8 is sleeping
+4100 1 is sleeping
+4100 4 has taken left fork
+4100 4 is eating
+4100 14 is thinking
+4100 14 has taken right fork
+4100 14 has taken left fork
+4100 14 is eating
+4100 3 has put down both forks
+4100 3 is sleeping
+4100 13 has put down both forks
+4100 13 is sleeping
+4100 6 has put down both forks
+4100 6 is sleeping
+4100 11 is thinking
+4100 11 has taken left fork
+4100 11 has taken right fork
+4100 11 is eating
+4100 17 has put down both forks
+4100 17 is sleeping
+4100 20 is thinking
+4100 20 has taken right fork
+4100 20 has taken left fork
+4100 20 is eating
+4100 16 is thinking
+4100 16 has taken right fork
+4100 16 has taken left fork
+4100 16 is eating
+4200 18 is thinking
+4200 18 has taken right fork
+4200 7 is thinking
+4200 7 has taken left fork
+4200 16 has put down both forks
+4200 11 has put down both forks
+4200 11 is sleeping
+4200 7 has taken right fork
+4200 15 is thinking
+4200 21 is thinking
+4200 21 has taken left fork
+4200 16 is sleeping
+4200 2 is thinking
+4200 14 has put down both forks
+4200 5 is thinking
+4200 18 has taken left fork
+4200 5 has taken left fork
+4200 5 has taken right fork
+4200 18 is eating
+4200 4 has put down both forks
+4200 20 has put down both forks
+4200 20 is sleeping
+4200 12 is thinking
+4200 21 has taken right fork
+4200 5 is eating
+4200 21 is eating
+4200 12 has taken right fork
+4200 4 is sleeping
+4200 12 has taken left fork
+4200 9 is thinking
+4200 9 has taken left fork
+4200 9 has taken right fork
+4200 15 has taken left fork
+4200 9 is eating
+4200 15 has taken right fork
+4200 15 is eating
+4200 12 is eating
+4200 14 is sleeping
+4200 2 has taken right fork
+4200 2 has taken left fork
+4200 2 is eating
+4200 7 is eating
+4300 21 has put down both forks
+4300 12 has put down both forks
+4300 8 is thinking
+4300 12 is sleeping
+4300 13 is thinking
+4300 21 is sleeping
+4300 8 has taken right fork
+4300 13 has taken left fork
+4300 1 is thinking
+4300 10 is thinking
+4300 9 has put down both forks
+4300 6 is thinking
+4300 15 has put down both forks
+4300 18 has put down both forks
+4300 6 has taken right fork
+4300 15 is sleeping
+4300 19 is thinking
+4300 18 is sleeping
+4300 6 has taken left fork
+4300 13 has taken right fork
+4300 7 has put down both forks
+4300 17 is thinking
+4300 7 is sleeping
+4300 5 has put down both forks
+4300 17 has taken left fork
+4300 17 has taken right fork
+4300 3 is thinking
+4300 19 has taken left fork
+4300 2 has put down both forks
+4300 8 has taken left fork
+4300 9 is sleeping
+4300 2 is sleeping
+4300 6 is eating
+4300 10 has taken right fork
+4300 17 is eating
+4300 5 is sleeping
+4300 10 has taken left fork
+4300 10 is eating
+4300 1 has taken left fork
+4300 3 has taken left fork
+4300 8 is eating
+4300 19 has taken right fork
+4300 13 is eating
+4300 19 is eating
+4300 1 has taken right fork
+4300 3 has taken right fork
+4300 1 is eating
+4300 3 is eating
+4400 11 is thinking
+4400 19 has put down both forks
+4400 20 is thinking
+4400 13 has put down both forks
+4400 20 has taken right fork
+4400 13 is sleeping
+4400 20 has taken left fork
+4400 14 is thinking
+4400 16 is thinking
+4400 3 has put down both forks
+4400 16 has taken right fork
+4400 10 has put down both forks
+4400 19 is sleeping
+4400 10 is sleeping
+4400 1 has put down both forks
+4400 8 has put down both forks
+4400 20 is eating
+4400 8 is sleeping
+4400 11 has taken left fork
+4400 11 has taken right fork
+4400 11 is eating
+4400 14 has taken right fork
+4400 14 has taken left fork
+4400 14 is eating
+4400 3 is sleeping
+4400 16 has taken left fork
+4400 16 is eating
+4400 17 has put down both forks
+4400 17 is sleeping
+4400 1 is sleeping
+4400 6 has put down both forks
+4400 6 is sleeping
+4400 4 is thinking
+4400 4 has taken right fork
+4400 4 has taken left fork
+4400 4 is eating
+4500 9 is thinking
+4500 18 is thinking
+4500 9 has taken left fork
+4500 12 is thinking
+4500 16 has put down both forks
+4500 4 has put down both forks
+4500 4 is sleeping
+4500 9 has taken right fork
+4500 21 is thinking
+4500 11 has put down both forks
+4500 21 has taken left fork
+4500 11 is sleeping
+4500 18 has taken right fork
+4500 9 is eating
+4500 5 is thinking
+4500 5 has taken left fork
+4500 5 has taken right fork
+4500 5 is eating
+4500 21 has taken right fork
+4500 21 is eating
+4500 16 is sleeping
+4500 18 has taken left fork
+4500 18 is eating
+4500 12 has taken right fork
+4500 12 has taken left fork
+4500 12 is eating
+4500 20 has put down both forks
+4500 20 is sleeping
+4500 14 has put down both forks
+4500 14 is sleeping
+4500 7 is thinking
+4500 7 has taken left fork
+4500 7 has taken right fork
+4500 7 is eating
+4500 2 is thinking
+4500 2 has taken right fork
+4500 2 has taken left fork
+4500 2 is eating
+4500 15 is thinking
+4500 15 has taken left fork
+4500 15 has taken right fork
+4500 15 is eating
+4600 2 has put down both forks
+4600 18 has put down both forks
+4600 12 has put down both forks
+4600 5 has put down both forks
+4600 12 is sleeping
+4600 7 has put down both forks
+4600 19 is thinking
+4600 7 is sleeping
+4600 19 has taken left fork
+4600 19 has taken right fork
+4600 19 is eating
+4600 2 is sleeping
+4600 10 is thinking
+4600 5 is sleeping
+4600 1 is thinking
+4600 8 is thinking
+4600 6 is thinking
+4600 1 has taken left fork
+4600 8 has taken right fork
+4600 1 has taken right fork
+4600 1 is eating
+4600 3 is thinking
+4600 21 has put down both forks
+4600 6 has taken right fork
+4600 15 has put down both forks
+4600 10 has taken right fork
+4600 8 has taken left fork
+4600 3 has taken left fork
+4600 15 is sleeping
+4600 18 is sleeping
+4600 9 has put down both forks
+4600 21 is sleeping
+4600 9 is sleeping
+4600 10 has taken left fork
+4600 8 is eating
+4600 10 is eating
+4600 3 has taken right fork
+4600 17 is thinking
+4600 17 has taken left fork
+4600 17 has taken right fork
+4600 17 is eating
+4600 6 has taken left fork
+4600 3 is eating
+4600 6 is eating
+4600 13 is thinking
+4600 13 has taken left fork
+4600 13 has taken right fork
+4600 13 is eating
+4700 3 has put down both forks
+4700 20 is thinking
+4700 4 is thinking
+4700 4 has taken right fork
+4700 4 has taken left fork
+4700 4 is eating
+4700 3 is sleeping
+4700 13 has put down both forks
+4700 13 is sleeping
+4700 11 is thinking
+4700 14 is thinking
+4700 11 has taken left fork
+4700 14 has taken right fork
+4700 14 has taken left fork
+4700 8 has put down both forks
+4700 17 has put down both forks
+4700 8 is sleeping
+4700 17 is sleeping
+4700 1 has put down both forks
+4700 1 is sleeping
+4700 6 has put down both forks
+4700 6 is sleeping
+4700 16 is thinking
+4700 16 has taken right fork
+4700 16 has taken left fork
+4700 16 is eating
+4700 14 is eating
+4700 10 has put down both forks
+4700 10 is sleeping
+4700 19 has put down both forks
+4700 11 has taken right fork
+4700 19 is sleeping
+4700 11 is eating
+4700 20 has taken right fork
+4700 20 has taken left fork
+4700 20 is eating
+4800 11 has put down both forks
+4800 11 is sleeping
+4800 12 is thinking
+4800 20 has put down both forks
+4800 5 is thinking
+4800 20 is sleeping
+4800 2 is thinking
+4800 9 is thinking
+4800 9 has taken left fork
+4800 14 has put down both forks
+4800 14 is sleeping
+4800 16 has put down both forks
+4800 16 is sleeping
+4800 7 is thinking
+4800 7 has taken left fork
+4800 7 has taken right fork
+4800 7 is eating
+4800 4 has put down both forks
+4800 4 is sleeping
+4800 21 is thinking
+4800 21 has taken left fork
+4800 21 has taken right fork
+4800 21 is eating
+4800 5 has taken left fork
+4800 5 has taken right fork
+4800 5 is eating
+4800 12 has taken right fork
+4800 12 has taken left fork
+4800 12 is eating
+4800 2 has taken right fork
+4800 2 has taken left fork
+4800 2 is eating
+4800 18 is thinking
+4800 18 has taken right fork
+4800 18 has taken left fork
+4800 18 is eating
+4800 9 has taken right fork
+4800 9 is eating
+4800 15 is thinking
+4800 15 has taken left fork
+4800 15 has taken right fork
+4800 15 is eating
+4900 15 has put down both forks
+4900 18 has put down both forks
+4900 7 has put down both forks
+4900 13 is thinking
+4900 15 is sleeping
+4900 18 is sleeping
+4900 13 has taken left fork
+4900 21 has put down both forks
+4900 6 is thinking
+4900 3 is thinking
+4900 7 is sleeping
+4900 3 has taken left fork
+4900 9 has put down both forks
+4900 1 is thinking
+4900 9 is sleeping
+4900 1 has taken left fork
+4900 1 has taken right fork
+4900 1 is eating
+4900 17 is thinking
+4900 17 has taken left fork
+4900 17 has taken right fork
+4900 17 is eating
+4900 2 has put down both forks
+4900 2 is sleeping
+4900 19 is thinking
+4900 19 has taken left fork
+4900 19 has taken right fork
+4900 19 is eating
+4900 8 is thinking
+4900 8 has taken right fork
+4900 8 has taken left fork
+4900 8 is eating
+4900 3 has taken right fork
+4900 3 is eating
+4900 21 is sleeping
+4900 5 has put down both forks
+4900 5 is sleeping
+4900 10 is thinking
+4900 10 has taken right fork
+4900 10 has taken left fork
+4900 10 is eating
+4900 6 has taken right fork
+4900 6 has taken left fork
+4900 6 is eating
+4900 12 has put down both forks
+4900 12 is sleeping
+4900 13 has taken right fork
+4900 13 is eating
+5000 16 is thinking
+5000 1 has put down both forks
+5000 1 is sleeping
+5000 16 has taken right fork
+5000 13 has put down both forks
+5000 13 is sleeping
+5000 3 has put down both forks
+5000 3 is sleeping
+5000 11 is thinking
+5000 11 has taken left fork
+5000 17 has put down both forks
+5000 17 is sleeping
+5000 10 has put down both forks
+5000 10 is sleeping
+5000 11 has taken right fork
+5000 19 has put down both forks
+5000 8 has put down both forks
+5000 14 is thinking
+5000 8 is sleeping
+5000 14 has taken right fork
+5000 14 has taken left fork
+5000 14 is eating
+5000 16 has taken left fork
+5000 16 is eating
+5000 19 is sleeping
+5000 20 is thinking
+5000 20 has taken right fork
+5000 20 has taken left fork
+5000 20 is eating
+5000 4 is thinking
+5000 4 has taken right fork
+5000 4 has taken left fork
+5000 4 is eating
+5000 6 has put down both forks
+5000 6 is sleeping
+5000 11 is eating
+5100 4 has put down both forks
+5100 5 is thinking
+5100 20 has put down both forks
+5100 12 is thinking
+5100 20 is sleeping
+5100 16 has put down both forks
+5100 9 is thinking
+5100 2 is thinking
+5100 21 is thinking
+5100 7 is thinking
+5100 2 has taken right fork
+5100 21 has taken left fork
+5100 7 has taken left fork
+5100 4 is sleeping
+5100 14 has put down both forks
+5100 9 has taken left fork
+5100 15 is thinking
+5100 9 has taken right fork
+5100 9 is eating
+5100 11 has put down both forks
+5100 12 has taken right fork
+5100 2 has taken left fork
+5100 12 has taken left fork
+5100 2 is eating
+5100 12 is eating
+5100 15 has taken left fork
+5100 21 has taken right fork
+5100 15 has taken right fork
+5100 16 is sleeping
+5100 15 is eating
+5100 11 is sleeping
+5100 18 is thinking
+5100 21 is eating
+5100 5 has taken left fork
+5100 5 has taken right fork
+5100 5 is eating
+5100 14 is sleeping
+5100 7 has taken right fork
+5100 7 is eating
+5100 18 has taken right fork
+5100 18 has taken left fork
+5100 18 is eating
+5200 7 has put down both forks
+5200 7 is sleeping
+5200 8 is thinking
+5200 9 has put down both forks
+5200 5 has put down both forks
+5200 2 has put down both forks
+5200 17 is thinking
+5200 18 has put down both forks
+5200 10 is thinking
+5200 15 has put down both forks
+5200 10 has taken right fork
+5200 6 is thinking
+5200 1 is thinking
+5200 8 has taken right fork
+5200 6 has taken right fork
+5200 1 has taken left fork
+5200 8 has taken left fork
+5200 6 has taken left fork
+5200 3 is thinking
+5200 6 is eating
+5200 9 is sleeping
+5200 18 is sleeping
+5200 15 is sleeping
+5200 12 has put down both forks
+5200 12 is sleeping
+5200 21 has put down both forks
+5200 10 has taken left fork
+5200 21 is sleeping
+5200 5 is sleeping
+5200 17 has taken left fork
+5200 17 has taken right fork
+5200 17 is eating
+5200 3 has taken left fork
+5200 2 is sleeping
+5200 13 is thinking
+5200 19 is thinking
+5200 8 is eating
+5200 19 has taken left fork
+5200 19 has taken right fork
+5200 19 is eating
+5200 10 is eating
+5200 1 has taken right fork
+5200 3 has taken right fork
+5200 1 is eating
+5200 3 is eating
+5200 13 has taken left fork
+5200 13 has taken right fork
+5200 13 is eating
+5300 4 is thinking
+5300 16 is thinking
+5300 17 has put down both forks
+5300 20 is thinking
+5300 19 has put down both forks
+5300 20 has taken right fork
+5300 19 is sleeping
+5300 20 has taken left fork
+5300 20 is eating
+5300 13 has put down both forks
+5300 17 is sleeping
+5300 4 has taken right fork
+5300 4 has taken left fork
+5300 4 is eating
+5300 3 has put down both forks
+5300 3 is sleeping
+5300 8 has put down both forks
+5300 8 is sleeping
+5300 11 is thinking
+5300 11 has taken left fork
+5300 11 has taken right fork
+5300 11 is eating
+5300 13 is sleeping
+5300 14 is thinking
+5300 14 has taken right fork
+5300 14 has taken left fork
+5300 14 is eating
+5300 10 has put down both forks
+5300 10 is sleeping
+5300 16 has taken right fork
+5300 16 has taken left fork
+5300 16 is eating
+5300 1 has put down both forks
+5300 1 is sleeping
+5300 6 has put down both forks
+5300 6 is sleeping
+5400 15 is thinking
+5400 18 is thinking
+5400 4 has put down both forks
+5400 20 has put down both forks
+5400 11 has put down both forks
+5400 20 is sleeping
+5400 7 is thinking
+5400 21 is thinking
+5400 2 is thinking
+5400 2 has taken right fork
+5400 2 has taken left fork
+5400 2 is eating
+5400 14 has put down both forks
+5400 14 is sleeping
+5400 9 is thinking
+5400 9 has taken left fork
+5400 9 has taken right fork
+5400 9 is eating
+5400 5 is thinking
+5400 12 is thinking
+5400 11 is sleeping
+5400 12 has taken right fork
+5400 12 has taken left fork
+5400 12 is eating
+5400 18 has taken right fork
+5400 7 has taken left fork
+5400 18 has taken left fork
+5400 15 has taken left fork
+5400 21 has taken left fork
+5400 18 is eating
+5400 15 has taken right fork
+5400 21 has taken right fork
+5400 5 has taken left fork
+5400 21 is eating
+5400 7 has taken right fork
+5400 5 has taken right fork
+5400 4 is sleeping
+5400 7 is eating
+5400 16 has put down both forks
+5400 15 is eating
+5400 16 is sleeping
+5400 5 is eating
+5500 7 has put down both forks
+5500 7 is sleeping
+5500 15 has put down both forks
+5500 15 is sleeping
+5500 1 is thinking
+5500 2 has put down both forks
+5500 21 has put down both forks
+5500 12 has put down both forks
+5500 21 is sleeping
+5500 13 is thinking
+5500 9 has put down both forks
+5500 3 is thinking
+5500 9 is sleeping
+5500 3 has taken left fork
+5500 3 has taken right fork
+5500 3 is eating
+5500 2 is sleeping
+5500 10 is thinking
+5500 5 has put down both forks
+5500 10 has taken right fork
+5500 19 is thinking
+5500 18 has put down both forks
+5500 19 has taken left fork
+5500 18 is sleeping
+5500 17 is thinking
+5500 6 is thinking
+5500 17 has taken left fork
+5500 17 has taken right fork
+5500 17 is eating
+5500 6 has taken right fork
+5500 6 has taken left fork
+5500 6 is eating
+5500 8 is thinking
+5500 8 has taken right fork
+5500 8 has taken left fork
+5500 8 is eating
+5500 10 has taken left fork
+5500 10 is eating
+5500 12 is sleeping
+5500 19 has taken right fork
+5500 19 is eating
+5500 1 has taken left fork
+5500 1 has taken right fork
+5500 1 is eating
+5500 13 has taken left fork
+5500 13 has taken right fork
+5500 13 is eating
+5500 5 is sleeping
+5600 1 has put down both forks
+5600 1 is sleeping
+5600 6 has put down both forks
+5600 6 is sleeping
+5600 13 has put down both forks
+5600 13 is sleeping
+5600 19 has put down both forks
+5600 8 has put down both forks
+5600 10 has put down both forks
+5600 4 is thinking
+5600 16 is thinking
+5600 14 is thinking
+5600 17 has put down both forks
+5600 14 has taken right fork
+5600 14 has taken left fork
+5600 14 is eating
+5600 10 is sleeping
+5600 3 has put down both forks
+5600 20 is thinking
+5600 3 is sleeping
+5600 4 has taken right fork
+5600 19 is sleeping
+5600 4 has taken left fork
+5600 4 is eating
+5600 17 is sleeping
+5600 11 is thinking
+5600 20 has taken right fork
+5600 20 has taken left fork
+5600 20 is eating
+5600 16 has taken right fork
+5600 16 has taken left fork
+5600 16 is eating
+5600 8 is sleeping
+5600 11 has taken left fork
+5600 11 has taken right fork
+5600 11 is eating
+5700 2 is thinking
+5700 18 is thinking
+5700 18 has taken right fork
+5700 20 has put down both forks
+5700 14 has put down both forks
+5700 2 has taken right fork
+5700 14 is sleeping
+5700 2 has taken left fork
+5700 2 is eating
+5700 7 is thinking
+5700 7 has taken left fork
+5700 7 has taken right fork
+5700 21 is thinking
+5700 11 has put down both forks
+5700 20 is sleeping
+5700 11 is sleeping
+5700 16 has put down both forks
+5700 12 is thinking
+5700 5 is thinking
+5700 12 has taken right fork
+5700 12 has taken left fork
+5700 12 is eating
+5700 18 has taken left fork
+5700 18 is eating
+5700 7 is eating
+5700 16 is sleeping
+5700 9 is thinking
+5700 9 has taken left fork
+5700 9 has taken right fork
+5700 9 is eating
+5700 21 has taken left fork
+5700 21 has taken right fork
+5700 21 is eating
+5700 4 has put down both forks
+5700 4 is sleeping
+5700 15 is thinking
+5700 15 has taken left fork
+5700 15 has taken right fork
+5700 15 is eating
+5700 5 has taken left fork
+5700 5 has taken right fork
+5700 5 is eating
+5800 7 has put down both forks
+5800 9 has put down both forks
+5800 9 is sleeping
+5800 7 is sleeping
+5800 8 is thinking
+5800 21 has put down both forks
+5800 17 is thinking
+5800 18 has put down both forks
+5800 17 has taken left fork
+5800 12 has put down both forks
+5800 3 is thinking
+5800 15 has put down both forks
+5800 3 has taken left fork
+5800 2 has put down both forks
+5800 19 is thinking
+5800 18 is sleeping
+5800 1 is thinking
+5800 13 is thinking
+5800 21 is sleeping
+5800 1 has taken left fork
+5800 13 has taken left fork
+5800 5 has put down both forks
+5800 13 has taken right fork
+5800 10 is thinking
+5800 6 is thinking
+5800 13 is eating
+5800 3 has taken right fork
+5800 19 has taken left fork
+5800 2 is sleeping
+5800 3 is eating
+5800 6 has taken right fork
+5800 19 has taken right fork
+5800 17 has taken right fork
+5800 1 has taken right fork
+5800 17 is eating
+5800 1 is eating
+5800 6 has taken left fork
+5800 19 is eating
+5800 6 is eating
+5800 10 has taken right fork
+5800 8 has taken right fork
+5800 12 is sleeping
+5800 10 has taken left fork
+5800 8 has taken left fork
+5800 10 is eating
+5800 5 is sleeping
+5800 15 is sleeping
+5800 8 is eating
+5900 6 has put down both forks
+5900 6 is sleeping
+5900 4 is thinking
+5900 13 has put down both forks
+5900 13 is sleeping
+5900 19 has put down both forks
+5900 11 is thinking
+5900 8 has put down both forks
+5900 10 has put down both forks
+5900 4 has taken right fork
+5900 10 is sleeping
+5900 4 has taken left fork
+5900 17 has put down both forks
+5900 8 is sleeping
+5900 1 has put down both forks
+5900 19 is sleeping
+5900 11 has taken left fork
+5900 14 is thinking
+5900 14 has taken right fork
+5900 14 has taken left fork
+5900 16 is thinking
+5900 14 is eating
+5900 20 is thinking
+5900 3 has put down both forks
+5900 11 has taken right fork
+5900 3 is sleeping
+5900 11 is eating
+5900 4 is eating
+5900 17 is sleeping
+5900 1 is sleeping
+5900 20 has taken right fork
+5900 16 has taken right fork
+5900 16 has taken left fork
+5900 16 is eating
+5900 20 has taken left fork
+5900 20 is eating
+6000 4 has put down both forks
+6000 16 has put down both forks
+6000 7 is thinking
+6000 20 has put down both forks
+6000 21 is thinking
+6000 4 is sleeping
+6000 15 is thinking
+6000 21 has taken left fork
+6000 15 has taken left fork
+6000 2 is thinking
+6000 11 has put down both forks
+6000 2 has taken right fork
+6000 18 is thinking
+6000 9 is thinking
+6000 21 has taken right fork
+6000 14 has put down both forks
+6000 14 is sleeping
+6000 21 is eating
+6000 5 is thinking
+6000 5 has taken left fork
+6000 5 has taken right fork
+6000 5 is eating
+6000 11 is sleeping
+6000 12 is thinking
+6000 12 has taken right fork
+6000 12 has taken left fork
+6000 12 is eating
+6000 2 has taken left fork
+6000 2 is eating
+6000 20 is sleeping
+6000 7 has taken left fork
+6000 7 has taken right fork
+6000 7 is eating
+6000 18 has taken right fork
+6000 18 has taken left fork
+6000 18 is eating
+6000 9 has taken left fork
+6000 9 has taken right fork
+6000 9 is eating
+6000 15 has taken right fork
+6000 15 is eating
+6000 16 is sleeping
+6100 12 has put down both forks
+6100 12 is sleeping
+6100 3 is thinking
+6100 5 has put down both forks
+6100 3 has taken left fork
+6100 1 is thinking
+6100 9 has put down both forks
+6100 18 has put down both forks
+6100 9 is sleeping
+6100 8 is thinking
+6100 10 is thinking
+6100 2 has put down both forks
+6100 10 has taken right fork
+6100 10 has taken left fork
+6100 13 is thinking
+6100 17 is thinking
+6100 13 has taken left fork
+6100 17 has taken left fork
+6100 13 has taken right fork
+6100 15 has put down both forks
+6100 5 is sleeping
+6100 15 i
