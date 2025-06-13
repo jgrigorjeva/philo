@@ -8,19 +8,17 @@ void	*monitor_routine(void *arg)
 	long	timestamp;
 
 	table = (t_table *)arg;
+	while (get_time() < table->start_time)
+		ft_msleep(1);
 	while (!is_dead(table))
 	{
 		i = 0;
 		while (i < table->philo_nbr)
 		{
-			// printf("i %d, table->philo_nbr %d\n", i, table->philo_nbr);
 			now = get_time();
 			timestamp = now - table->start_time;
-			// printf("monitor: now %ld last fed %ld difference %ld ttd %d tte %d tts %d\n", \
-				// timestamp, table->philo_arr[i].last_fed, timestamp - table->philo_arr[i].last_fed, table->ttd, table->tte, table->tts);
-			if (timestamp - table->philo_arr[i].last_fed >= table->ttd && table->philo_nbr > 1)
+			if (should_die(timestamp, &table->philo_arr[i]))
 			{
-				// printf("philo died\n");
 				pthread_mutex_lock(&table->dead_mutex);
 				table->died_id = table->philo_arr[i].id;
 				pthread_mutex_unlock(&table->dead_mutex);
@@ -30,7 +28,7 @@ void	*monitor_routine(void *arg)
 			}
 			i++;
 		}
-		ft_usleep(1);
+		ft_msleep(1);
 	}
 	return (NULL);
 }
@@ -38,16 +36,14 @@ void	*monitor_routine(void *arg)
 void	*routine(void *arg)
 {
 	t_philo	*philo;
-	// long	now;
-	// long	timestamp;
 
 	philo = (t_philo *)arg;
-
-	// now = get_time();
-	// timestamp = now - philo->table->start_time;
-	
 	if (philo->table->philo_nbr == 1)
 		return (handle_one_philo(philo), NULL);
+	while (get_time() < philo->table->start_time)
+		ft_msleep(1);
+	if (philo->id % 2)
+		ft_msleep(5);
 	while (!is_dead(philo->table) && !all_meals_eaten(philo->table))
 	{
 		think(philo);
@@ -64,41 +60,21 @@ void	think(t_philo *philo)
 {
 	if (!is_dead(philo->table))
 		print_status(philo, "is thinking");
-	philo->state = THINK;
 }
 
 int	go_sleep(t_philo *philo)
 {
 	if (!is_dead(philo->table))
 		print_status(philo, "is sleeping");
-	philo->state = SLEEP;
-	ft_usleep(philo->table->tts);
+	ft_msleep(philo->table->tts);
 	return (0);
-}
-
-t_bool	all_meals_eaten(t_table *table)
-{
-	int		i;
-	int		count;
-
-	if (table->max_meals < 0)
-		return (FALSE);
-	i = 0;
-	count = 0;
-	while (i < table->philo_nbr)
-	{
-		if (table->philo_arr[i].meals_eaten >= table->max_meals)
-			count++;
-		i++;
-	}
-	return (i == count);
 }
 
 void	handle_one_philo(t_philo *philo)
 {
 	print_status(philo, "is thinking");
 	print_status(philo, "has taken a fork");
-	ft_usleep(philo->table->ttd);
+	ft_msleep(philo->table->ttd);
 	print_status(philo, "died");
 	philo->table->died_id = 1;
 }

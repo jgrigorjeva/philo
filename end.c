@@ -38,6 +38,7 @@ int	destroy_mutex(t_table *table)
 	while (i < table->philo_nbr)
 	{
 		pthread_mutex_destroy(&table->fork_arr[i].mutex);
+		pthread_mutex_destroy(&table->philo_arr[i].data_mutex);
 		i++;
 	}
 	pthread_mutex_destroy(&table->print_mutex);

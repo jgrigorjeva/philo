@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 19:00:36 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/12 00:28:58 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/06/13 23:38:35 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,6 +17,7 @@ int	create_threads(t_table *table);
 t_table	*init_all(t_input *input)
 {
 	t_table	*table;
+	int		thread_status;
 
 	table = init_table(input);
 	if (!table)
@@ -24,11 +25,12 @@ t_table	*init_all(t_input *input)
 	init_philo_arr(table);
 	if (init_mutex(table))
 		return (NULL);
-	pthread_mutex_lock(&table->print_mutex);
-	if (create_threads(table))
+	// pthread_mutex_lock(&table->print_mutex);
+	thread_status = create_threads(table);
+	// pthread_mutex_unlock(&table->print_mutex);
+	if (thread_status)
 		return (NULL);
-	table->start_time = get_time();
-	pthread_mutex_unlock(&table->print_mutex);
+
 	return (table);
 }
 
@@ -46,7 +48,7 @@ t_table	*init_table(t_input *input)
 	table->ttd = input->ttd;
 	table->tte = input->tte;
 	table->tts = input->tts;
-	table->start_time = get_time();
+	table->start_time = get_time() + 10;
 	table->died_id = 0;
 	table->philo_arr = malloc(sizeof(t_philo) * input->philo_nbr);
 	if (!table->philo_arr)
@@ -81,6 +83,8 @@ int	init_mutex(t_table *table)
 	{
 		if (pthread_mutex_init(&table->fork_arr[i].mutex, NULL) != 0)
 			return (printf("Error in fork mutex initialization\n"), 1);
+		if (pthread_mutex_init(&table->philo_arr[i].data_mutex, NULL) != 0)
+			return (printf("Error in data mutex initialization\n"), 1);
 		i++;
 	}
 	if (pthread_mutex_init(&table->print_mutex, NULL) != 0)
@@ -100,7 +104,7 @@ void	init_philo_arr(t_table *table)
 		table->philo_arr[i].id = i + 1;
 		table->philo_arr[i].meals_eaten = 0;
 		table->philo_arr[i].now_eating = FALSE;
-		table->philo_arr[i].state = THINK;
+		// table->philo_arr[i].state = THINK;
 		table->philo_arr[i].last_fed = 0;
 		table->philo_arr[i].table = table;
 		i++;

@@ -2,8 +2,8 @@
 
 void	pick_forks_right_first(t_philo *philo);
 void	pick_forks_left_first(t_philo *philo);
-void	drop_forks_right_first(t_philo *philo);
-void	drop_forks_left_first(t_philo *philo);
+void	drop_forks(t_philo *philo);
+
 
 int	eat(t_philo *philo)
 {
@@ -13,19 +13,16 @@ int	eat(t_philo *philo)
 		pick_forks_right_first(philo);
 	if (!is_dead(philo->table))
 		print_status(philo, "is eating");
+	pthread_mutex_lock(&philo->data_mutex);
 	philo->last_fed = get_time() - philo->table->start_time;
-	ft_usleep(philo->table->tte);
-	philo->state = EAT;
+	pthread_mutex_unlock(&philo->data_mutex);
+
+	ft_msleep(philo->table->tte);
+	drop_forks(philo);
+	pthread_mutex_lock(&philo->data_mutex);
 	philo->meals_eaten++;
-	if (philo->id % 2)
-		drop_forks_right_first(philo);
-	else
-		drop_forks_left_first(philo);
-	if (philo->table->max_meals > 0 \
-		&& philo->meals_eaten < philo->table->max_meals)
-		return (0);
-	else
-		return (1);
+	pthread_mutex_unlock(&philo->data_mutex);
+	return (0);
 }
 
 void	pick_forks_left_first(t_philo *philo)
@@ -52,18 +49,10 @@ void	pick_forks_right_first(t_philo *philo)
 		print_status(philo, "has taken left fork");
 }
 
-void	drop_forks_right_first(t_philo *philo)
+void	drop_forks(t_philo *philo)
 {
 	pthread_mutex_unlock(&philo->right_fork->mutex);
 	pthread_mutex_unlock(&philo->left_fork->mutex);
-	if (!is_dead(philo->table))
-		print_status(philo, "has put down both forks");
-}
-
-void	drop_forks_left_first(t_philo *philo)
-{
-	pthread_mutex_unlock(&philo->left_fork->mutex);
-	pthread_mutex_unlock(&philo->right_fork->mutex);
 	if (!is_dead(philo->table))
 		print_status(philo, "has put down both forks");
 }

@@ -45,7 +45,7 @@ long	get_time(void)
 	return ((tv.tv_sec * (long)1000) + (tv.tv_usec / 1000));
 }
 
-int	ft_usleep(unsigned int time)
+int	ft_msleep(unsigned int time)
 {
 	long	start;
 

@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 16:33:48 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/11 23:17:10 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/06/13 23:36:08 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,23 +31,12 @@ typedef struct s_input
 	int	meal_nbr;
 }	t_input;
 
-typedef enum e_state
-{
-	SLEEP,
-	EAT,
-	THINK,
-	DEAD
-}	t_state;
-
 typedef enum s_bool
 {
 	FALSE,
 	TRUE
 }	t_bool;
 
-// Ten int stat používám jen kvůli tomu, 
-// že vidlička má obsahovat ještě něco dalšího kromě mutexu.
-// Pak tam třeba zapíšeme id filosofa, který ji drží
 typedef struct s_fork
 {
 	pthread_mutex_t	mutex;
@@ -60,10 +49,10 @@ typedef struct s_philo
 	pthread_t		thread;
 	t_fork			*left_fork;
 	t_fork			*right_fork;
-	t_state			state;
-	long		last_fed;
+	long			last_fed;
 	int				meals_eaten;
 	t_bool			now_eating;
+	pthread_mutex_t	data_mutex;
 	struct s_table	*table;
 }	t_philo;
 
@@ -93,7 +82,7 @@ int		init_mutex(t_table *table);
 void		init_philo_arr(t_table *table);
 
 // timing
-int		ft_usleep(unsigned int time);
+int		ft_msleep(unsigned int time);
 long	get_time(void);
 
 // routine
@@ -110,6 +99,8 @@ int		end_all(t_table *table);
 
 // utils
 t_bool	is_dead(t_table *table);
+t_bool	should_die(long timestamp, t_philo *philo);
 int		ft_strcmp(const char *s1, char *s2);
 t_bool	all_meals_eaten(t_table *table);
+t_bool	philo_max_fed(t_philo *philo, t_table *table);
 #endif
