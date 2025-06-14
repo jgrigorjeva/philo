@@ -36,21 +36,29 @@ void	*monitor_routine(void *arg)
 void	*routine(void *arg)
 {
 	t_philo	*philo;
+	long	timestamp;
 
 	philo = (t_philo *)arg;
 	if (philo->table->philo_nbr == 1)
 		return (handle_one_philo(philo), NULL);
 	while (get_time() < philo->table->start_time)
 		ft_msleep(1);
+	think(philo);
 	if (philo->id % 2)
 		ft_msleep(5);
 	while (!is_dead(philo->table) && !all_meals_eaten(philo->table))
 	{
-		think(philo);
+		// think(philo);
+		timestamp = get_time() - philo->table->start_time;
+		if (philo->table->philo_nbr % 2 == 1 \
+		&& timestamp - philo->last_fed < 2 * philo->table->tte + philo->table->tts)
+			ft_msleep(5);
 		if (!is_dead(philo->table) && !all_meals_eaten(philo->table))
 			eat(philo);
 		if (!is_dead(philo->table) && !all_meals_eaten(philo->table))
 			go_sleep(philo);
+		if (!is_dead(philo->table) && !all_meals_eaten(philo->table))
+			think(philo);
 	}
 	
 	return (NULL);

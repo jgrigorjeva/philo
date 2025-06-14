@@ -1,0 +1,243 @@
+==197289== Helgrind, a thread error detector
+==197289== Copyright (C) 2007-2017, and GNU GPL'd, by OpenWorks LLP et al.
+==197289== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==197289== Command: ./philo 11 800 200 200 3
+==197289== 
+1 2 is thinking
+5 6 is thinking
+6 4 is thinking
+8 5 is thinking
+8 8 is thinking
+10 2 has taken left fork
+11 2 has taken right fork
+11 2 is eating
+11 1 is thinking
+13 10 is thinking
+14 7 is thinking
+14 6 has taken left fork
+14 6 has taken right fork
+14 6 is eating
+15 3 is thinking
+15 9 is thinking
+15 5 has taken right fork
+16 8 has taken left fork
+16 8 has taken right fork
+16 8 is eating
+19 1 has taken right fork
+19 10 has taken left fork
+19 10 has taken right fork
+19 10 is eating
+21 11 is thinking
+212 2 has put down both forks
+214 2 is sleeping
+215 6 has put down both forks
+215 6 is sleeping
+216 3 has taken right fork
+216 3 has taken left fork
+217 3 is eating
+217 1 has taken left fork
+217 1 is eating
+218 8 has put down both forks
+219 8 is sleeping
+219 7 has taken right fork
+219 7 has taken left fork
+219 7 is eating
+220 5 has taken left fork
+220 5 is eating
+221 10 has put down both forks
+221 10 is sleeping
+223 9 has taken right fork
+223 9 has taken left fork
+223 9 is eating
+224 11 has taken right fork
+415 2 is thinking
+419 6 is thinking
+419 1 has put down both forks
+420 1 is sleeping
+421 7 has put down both forks
+422 7 is sleeping
+422 3 has put down both forks
+423 3 is sleeping
+424 5 has put down both forks
+425 5 is sleeping
+425 11 has taken left fork
+426 11 is eating
+427 8 is thinking
+428 10 is thinking
+430 2 has taken left fork
+431 2 has taken right fork
+431 2 is eating
+431 4 has taken left fork
+432 4 has taken right fork
+433 4 is eating
+434 9 has put down both forks
+435 9 is sleeping
+438 6 has taken left fork
+438 6 has taken right fork
+439 6 is eating
+441 8 has taken left fork
+442 8 has taken right fork
+442 8 is eating
+621 1 is thinking
+624 7 is thinking
+625 3 is thinking
+626 5 is thinking
+628 10 has taken left fork
+629 10 has taken right fork
+629 10 is eating
+633 11 has put down both forks
+634 11 is sleeping
+637 9 is thinking
+637 4 has put down both forks
+638 4 is sleeping
+639 2 has put down both forks
+639 2 is sleeping
+640 1 has taken right fork
+640 1 has taken left fork
+640 1 is eating
+642 5 has taken right fork
+642 6 has put down both forks
+643 6 is sleeping
+646 8 has put down both forks
+647 8 is sleeping
+647 5 has taken left fork
+648 5 is eating
+648 3 has taken right fork
+648 3 has taken left fork
+649 3 is eating
+649 7 has taken right fork
+650 7 has taken left fork
+650 7 is eating
+651 9 has taken right fork
+830 10 has put down both forks
+831 10 is sleeping
+832 9 has taken left fork
+832 9 is eating
+835 11 is thinking
+839 4 is thinking
+841 2 is thinking
+843 1 has put down both forks
+843 1 is sleeping
+845 11 has taken right fork
+845 11 has taken left fork
+845 11 is eating
+848 6 is thinking
+848 5 has put down both forks
+849 5 is sleeping
+850 8 is thinking
+851 3 has put down both forks
+851 3 is sleeping
+852 7 has put down both forks
+853 7 is sleeping
+853 4 has taken left fork
+853 4 has taken right fork
+853 4 is eating
+854 2 has taken left fork
+854 2 has taken right fork
+854 2 is eating
+855 6 has taken left fork
+855 6 has taken right fork
+855 6 is eating
+1031 10 is thinking
+1033 9 has put down both forks
+1035 9 is sleeping
+1038 8 has taken left fork
+1039 8 has taken right fork
+1039 8 is eating
+1046 1 is thinking
+1048 11 has put down both forks
+1049 11 is sleeping
+1051 5 is thinking
+1052 10 has taken left fork
+1052 10 has taken right fork
+1052 10 is eating
+1054 3 is thinking
+1054 4 has put down both forks
+1055 4 is sleeping
+1056 7 is thinking
+1060 5 has taken right fork
+1061 2 has put down both forks
+1062 2 is sleeping
+1063 1 has taken right fork
+1063 1 has taken left fork
+1064 1 is eating
+1067 3 has taken right fork
+1067 3 has taken left fork
+1067 3 is eating
+1068 5 has taken left fork
+1068 5 is eating
+1074 7 has taken right fork
+1076 6 has put down both forks
+1077 6 is sleeping
+1235 9 is thinking
+1239 7 has taken left fork
+1239 7 is eating
+1239 8 has put down both forks
+1239 8 is sleeping
+1240 9 has taken right fork
+1249 11 is thinking
+1253 10 has put down both forks
+1253 10 is sleeping
+1253 9 has taken left fork
+1253 9 is eating
+1254 11 has taken right fork
+1255 4 is thinking
+1262 2 is thinking
+1264 1 has put down both forks
+1265 1 is sleeping
+1265 11 has taken left fork
+1265 11 is eating
+1268 3 has put down both forks
+1268 3 is sleeping
+1269 5 has put down both forks
+1269 5 is sleeping
+1269 2 has taken left fork
+1269 2 has taken right fork
+1269 2 is eating
+1270 4 has taken left fork
+1270 4 has taken right fork
+1270 4 is eating
+1278 6 is thinking
+1440 7 has put down both forks
+1441 7 is sleeping
+1444 8 is thinking
+1445 6 has taken left fork
+1445 6 has taken right fork
+1445 6 is eating
+1455 10 is thinking
+1456 9 has put down both forks
+1457 9 is sleeping
+1458 8 has taken left fork
+1459 8 has taken right fork
+1459 8 is eating
+1466 1 is thinking
+1467 11 has put down both forks
+1468 11 is sleeping
+1469 3 is thinking
+1471 5 is thinking
+1471 10 has taken left fork
+1471 10 has taken right fork
+1472 10 is eating
+1473 2 has put down both forks
+1475 2 is sleeping
+1476 3 has taken right fork
+1479 1 has taken right fork
+1480 1 has taken left fork
+1480 1 is eating
+1480 4 has put down both forks
+1487 3 has taken left fork
+1488 3 is eating
+1489 5 has taken right fork
+1646 5 has taken left fork
+1646 5 is eating
+1647 6 has put down both forks
+1659 8 has put down both forks
+1672 10 has put down both forks
+1680 1 has put down both forks
+1691 3 has put down both forks
+1846 5 has put down both forks
+==197289== 
+==197289== Use --history-level=approx or =none to gain increased speed, at
+==197289== the cost of reduced accuracy of conflicting-access information
+==197289== For lists of detected and suppressed errors, rerun with: -s
+==197289== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 72460 from 169)

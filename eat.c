@@ -7,7 +7,7 @@ void	drop_forks(t_philo *philo);
 
 int	eat(t_philo *philo)
 {
-	if (philo->id % 2)
+	if (!(philo->id % 2))
 		pick_forks_left_first(philo);
 	else
 		pick_forks_right_first(philo);

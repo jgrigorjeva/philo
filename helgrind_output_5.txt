@@ -1,0 +1,110 @@
+==197120== Helgrind, a thread error detector
+==197120== Copyright (C) 2007-2017, and GNU GPL'd, by OpenWorks LLP et al.
+==197120== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==197120== Command: ./philo 5 800 200 200 3
+==197120== 
+1 2 is thinking
+6 3 is thinking
+6 4 is thinking
+10 2 has taken left fork
+10 2 has taken right fork
+10 2 is eating
+11 1 is thinking
+11 5 is thinking
+11 4 has taken left fork
+11 4 has taken right fork
+11 4 is eating
+16 1 has taken right fork
+211 2 has put down both forks
+213 2 is sleeping
+213 4 has put down both forks
+214 4 is sleeping
+216 1 has taken left fork
+216 1 is eating
+217 5 has taken right fork
+218 3 has taken right fork
+219 3 has taken left fork
+219 3 is eating
+414 2 is thinking
+415 4 is thinking
+417 5 has taken left fork
+418 5 is eating
+419 1 has put down both forks
+419 1 is sleeping
+420 3 has put down both forks
+421 3 is sleeping
+422 2 has taken left fork
+422 2 has taken right fork
+422 2 is eating
+618 5 has put down both forks
+618 5 is sleeping
+619 4 has taken left fork
+619 4 has taken right fork
+619 4 is eating
+620 1 is thinking
+621 3 is thinking
+623 2 has put down both forks
+623 2 is sleeping
+625 1 has taken right fork
+625 1 has taken left fork
+625 1 is eating
+626 3 has taken right fork
+818 5 is thinking
+820 4 has put down both forks
+820 4 is sleeping
+821 3 has taken left fork
+821 3 is eating
+823 5 has taken right fork
+824 2 is thinking
+825 1 has put down both forks
+826 1 is sleeping
+827 5 has taken left fork
+827 5 is eating
+1020 4 is thinking
+1021 3 has put down both forks
+1023 3 is sleeping
+1023 2 has taken left fork
+1023 2 has taken right fork
+1024 2 is eating
+1027 1 is thinking
+1027 5 has put down both forks
+1028 5 is sleeping
+1028 4 has taken left fork
+1029 4 has taken right fork
+1029 4 is eating
+1032 1 has taken right fork
+1223 3 is thinking
+1224 1 has taken left fork
+1224 1 is eating
+1225 2 has put down both forks
+1226 2 is sleeping
+1228 5 is thinking
+1229 3 has taken right fork
+1230 4 has put down both forks
+1231 4 is sleeping
+1232 3 has taken left fork
+1232 3 is eating
+1233 5 has taken right fork
+1424 1 has put down both forks
+1425 1 is sleeping
+1426 5 has taken left fork
+1426 5 is eating
+1427 2 is thinking
+1432 4 is thinking
+1434 3 has put down both forks
+1435 3 is sleeping
+1437 2 has taken left fork
+1437 2 has taken right fork
+1437 2 is eating
+1625 1 is thinking
+1627 5 has put down both forks
+1635 4 has taken left fork
+1636 4 has taken right fork
+1636 4 is eating
+1640 2 has put down both forks
+1836 4 has put down both forks
+==197120== 
+==197120== Use --history-level=approx or =none to gain increased speed, at
+==197120== the cost of reduced accuracy of conflicting-access information
+==197120== For lists of detected and suppressed errors, rerun with: -s
+==197120== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 35261 from 169)
