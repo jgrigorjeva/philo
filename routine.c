@@ -74,8 +74,8 @@ int	go_sleep(t_philo *philo)
 {
 	if (!is_dead(philo->table))
 		print_status(philo, "is sleeping");
-	// ft_msleep_check(philo->table->tts, philo->table);
-	 ft_msleep(philo->table->tts);
+	ft_msleep_check(philo->table->tts, philo->table);
+	//  ft_msleep(philo->table->tts);
 	return (0);
 }
 
