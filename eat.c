@@ -17,6 +17,7 @@ int	eat(t_philo *philo)
 	philo->last_fed = get_time() - philo->table->start_time;
 	pthread_mutex_unlock(&philo->data_mutex);
 
+	// ft_msleep_check(philo->table->tte, philo->table);
 	ft_msleep(philo->table->tte);
 	drop_forks(philo);
 	pthread_mutex_lock(&philo->data_mutex);

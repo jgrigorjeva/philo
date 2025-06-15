@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 19:00:36 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/15 20:15:41 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/06/15 20:17:42 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -48,8 +48,8 @@ t_table	*init_table(t_input *input)
 	table->ttd = input->ttd;
 	table->tte = input->tte;
 	table->tts = input->tts;
-	table->start_time = get_time() + 5;
-	table->died_id = 0;
+	table->start_time = get_time() + 200;
+	table->someone_died = FALSE;
 	table->philo_arr = malloc(sizeof(t_philo) * input->philo_nbr);
 	if (!table->philo_arr)
 		return (printf("Error allocating philo_arr\n"), NULL);

@@ -54,3 +54,16 @@ int	ft_msleep(unsigned int time)
 		usleep(time / 10);
 	return (0);
 }
+
+int	ft_msleep_check(unsigned int time, t_table *table)
+{
+	long	start;
+
+	start = get_time();
+	while (!is_dead(table) && !all_meals_eaten(table) && (get_time() - start) \
+	< time && (time - (get_time() - start)) % 100)
+		usleep(100);
+	if (!is_dead(table) && !all_meals_eaten(table) && (get_time() - start) < time)
+		ft_msleep(time - (get_time() - start));
+	return (0);
+}

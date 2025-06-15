@@ -20,7 +20,7 @@ void	*monitor_routine(void *arg)
 			if (should_die(timestamp, &table->philo_arr[i]))
 			{
 				pthread_mutex_lock(&table->dead_mutex);
-				table->died_id = table->philo_arr[i].id;
+				table->someone_died = TRUE;
 				pthread_mutex_unlock(&table->dead_mutex);
 				if (!all_meals_eaten(table))
 					print_status(&table->philo_arr[i], "died");
@@ -45,7 +45,7 @@ void	*routine(void *arg)
 		ft_msleep(1);
 	think(philo);
 	if (philo->id % 2)
-		ft_msleep(5);
+		ft_msleep(20);
 	while (!is_dead(philo->table) && !all_meals_eaten(philo->table))
 	{
 		// think(philo);
@@ -74,7 +74,8 @@ int	go_sleep(t_philo *philo)
 {
 	if (!is_dead(philo->table))
 		print_status(philo, "is sleeping");
-	ft_msleep(philo->table->tts);
+	// ft_msleep_check(philo->table->tts, philo->table);
+	 ft_msleep(philo->table->tts);
 	return (0);
 }
 
@@ -84,5 +85,5 @@ void	handle_one_philo(t_philo *philo)
 	print_status(philo, "has taken a fork");
 	ft_msleep(philo->table->ttd);
 	print_status(philo, "died");
-	philo->table->died_id = 1;
+	philo->table->someone_died = TRUE;
 }

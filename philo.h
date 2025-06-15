@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 16:33:48 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/13 23:36:08 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/06/15 19:40:14 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,8 +65,8 @@ typedef struct s_table
 	int				tts;
 	t_philo			*philo_arr;
 	t_fork			*fork_arr;
-	long		start_time;
-	int				died_id;
+	long			start_time;
+	t_bool			someone_died;
 	pthread_mutex_t	print_mutex;
 	pthread_mutex_t	dead_mutex;
 	pthread_t		monitor;
@@ -79,10 +79,11 @@ t_table	*init_all(t_input *input);
 t_table	*init_table(t_input *input);
 void	assign_forks(t_table *table);
 int		init_mutex(t_table *table);
-void		init_philo_arr(t_table *table);
+void	init_philo_arr(t_table *table);
 
 // timing
 int		ft_msleep(unsigned int time);
+int		ft_msleep_check(unsigned int time, t_table *table);
 long	get_time(void);
 
 // routine
