@@ -1,3 +1,15 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   utils.c                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/06/16 18:02:41 by jgrigorj          #+#    #+#             */
+/*   Updated: 2025/06/16 18:41:21 by jgrigorj         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "philo.h"
 
 t_bool	is_dead(t_table *table)
@@ -7,7 +19,6 @@ t_bool	is_dead(t_table *table)
 	pthread_mutex_lock(&table->dead_mutex);
 	status = table->someone_died;
 	pthread_mutex_unlock(&table->dead_mutex);
-
 	return (status);
 }
 

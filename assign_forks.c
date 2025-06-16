@@ -1,31 +1,28 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   assign_forks.c                                     :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2025/05/29 01:09:36 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/16 18:03:24 by jgrigorj         ###   ########.fr       */
+/*   Created: 2025/06/16 18:44:14 by jgrigorj          #+#    #+#             */
+/*   Updated: 2025/06/16 18:44:35 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "philo.h"
 
-int	main(int argc, char **argv)
+void	assign_forks(t_table *table)
 {
-	t_input		*input;
-	t_table		*table;
+	int	i;
 
-	if (argc < 5 || argc > 6)
-		return (printf("Invalid number of arguments\n"), 1);
-	input = parse_input(argc, argv);
-	if (!input)
-		return (1);
-	table = init_all(input);
-	free (input);
-	if (!table)
-		return (printf("Error initializing table\n"), 1);
-	end_all(table);
-	return (0);
+	i = 0;
+	while (i < table->philo_nbr)
+	{
+		table->philo_arr[i].right_fork = &table->fork_arr[i];
+		table->philo_arr[i].left_fork \
+		= &table->fork_arr[(i + 1) % table->philo_nbr];
+		table->fork_arr[i].stat = -1;
+		i++;
+	}
 }

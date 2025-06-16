@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/28 16:33:48 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/15 19:40:14 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/06/16 18:32:17 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -74,6 +74,7 @@ typedef struct s_table
 
 t_input	*parse_input(int argc, char **argv);
 int		ft_atoi(const char *nptr);
+int		ft_isdigit(int c);
 void	print_input(t_input *input);
 t_table	*init_all(t_input *input);
 t_table	*init_table(t_input *input);
@@ -104,4 +105,5 @@ t_bool	should_die(long timestamp, t_philo *philo);
 int		ft_strcmp(const char *s1, char *s2);
 t_bool	all_meals_eaten(t_table *table);
 t_bool	philo_max_fed(t_philo *philo, t_table *table);
+void	wait_before_start(t_table *table);
 #endif

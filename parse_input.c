@@ -1,4 +1,18 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   parse_input.c                                      :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/06/16 18:01:29 by jgrigorj          #+#    #+#             */
+/*   Updated: 2025/06/16 18:27:33 by jgrigorj         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "philo.h"
+
+int	handle_non_digit(const char *nptr);
 
 t_input	*parse_input(int argc, char **argv)
 {
@@ -21,9 +35,10 @@ t_input	*parse_input(int argc, char **argv)
 		else
 		{
 			input->meal_nbr = -1;
-			printf("Number of meals is invalid, but doing the simulation anyway!\n");
+			printf("Number of meals is invalid, \
+but doing the simulation anyway!\n");
 		}
-	} 
+	}
 	else
 		input->meal_nbr = -1;
 	return (input);
@@ -39,9 +54,7 @@ int	ft_atoi(const char *nptr)
 	i = 0;
 	sign = 1;
 	while (nptr[i] == 32 || (nptr[i] >= 9 && nptr[i] <= 13))
-	{
 		++i;
-	}
 	if (nptr[i] == '-')
 	{
 		sign = -1;
@@ -54,8 +67,28 @@ int	ft_atoi(const char *nptr)
 		num = num * 10 + (nptr[i] - 48);
 		++i;
 	}
-	num = num * sign;
+	num = num * sign * handle_non_digit(&nptr[i]);
 	return (num);
+}
+
+int	ft_isdigit(int c)
+{
+	if (c >= '0' && c <= '9')
+		return (1);
+	else
+		return (0);
+}
+
+int	handle_non_digit(const char *nptr)
+{
+	int	i;
+
+	i = 0;
+	while (nptr[i] && (nptr[i] == '.' || ft_isdigit(nptr[i])))
+		i++;
+	if (nptr[i] && !ft_isdigit(nptr[i]))
+		return (0);
+	return (1);
 }
 
 void	print_input(t_input *input)

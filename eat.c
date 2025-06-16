@@ -1,9 +1,20 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   eat.c                                              :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/06/16 18:01:38 by jgrigorj          #+#    #+#             */
+/*   Updated: 2025/06/16 18:42:47 by jgrigorj         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "philo.h"
 
 void	pick_forks_right_first(t_philo *philo);
 void	pick_forks_left_first(t_philo *philo);
 void	drop_forks(t_philo *philo);
-
 
 int	eat(t_philo *philo)
 {
@@ -16,9 +27,7 @@ int	eat(t_philo *philo)
 	pthread_mutex_lock(&philo->data_mutex);
 	philo->last_fed = get_time() - philo->table->start_time;
 	pthread_mutex_unlock(&philo->data_mutex);
-
 	ft_msleep_check(philo->table->tte, philo->table);
-	// ft_msleep(philo->table->tte);
 	drop_forks(philo);
 	pthread_mutex_lock(&philo->data_mutex);
 	philo->meals_eaten++;

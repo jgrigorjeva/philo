@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/05/31 19:00:36 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/15 21:01:01 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/06/16 18:44:11 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,12 +25,9 @@ t_table	*init_all(t_input *input)
 	init_philo_arr(table);
 	if (init_mutex(table))
 		return (NULL);
-	// pthread_mutex_lock(&table->print_mutex);
 	thread_status = create_threads(table);
-	// pthread_mutex_unlock(&table->print_mutex);
 	if (thread_status)
 		return (NULL);
-
 	return (table);
 }
 
@@ -57,21 +54,6 @@ t_table	*init_table(t_input *input)
 	if (!table->fork_arr)
 		return (printf("Error allocating fork_arr\n"), NULL);
 	return (table);
-}
-
-void	assign_forks(t_table *table)
-{
-	int	i;
-
-	i = 0;
-	while (i < table->philo_nbr)
-	{
-		table->philo_arr[i].right_fork = &table->fork_arr[i];
-		table->philo_arr[i].left_fork \
-		= &table->fork_arr[(i + 1) % table->philo_nbr];
-		table->fork_arr[i].stat = -1;
-		i++;
-	}
 }
 
 int	init_mutex(t_table *table)
@@ -104,7 +86,6 @@ void	init_philo_arr(t_table *table)
 		table->philo_arr[i].id = i + 1;
 		table->philo_arr[i].meals_eaten = 0;
 		table->philo_arr[i].now_eating = FALSE;
-		// table->philo_arr[i].state = THINK;
 		table->philo_arr[i].last_fed = 0;
 		table->philo_arr[i].table = table;
 		i++;

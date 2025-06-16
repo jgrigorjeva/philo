@@ -1,40 +1,16 @@
+/* ************************************************************************** */
+/*                                                                            */
+/*                                                        :::      ::::::::   */
+/*   time.c                                             :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2025/06/16 18:02:33 by jgrigorj          #+#    #+#             */
+/*   Updated: 2025/06/16 18:45:46 by jgrigorj         ###   ########.fr       */
+/*                                                                            */
+/* ************************************************************************** */
+
 #include "philo.h"
-// void	print_time(int time_ms)
-// {
-// 	struct timeval	start_abs_time;
-// 	struct timeval	cur_abs_time;
-// 	// unsigned int	rel_time_s;
-// 	int	rel_time_ms;
-
-// 	gettimeofday(&start_abs_time, NULL);
-// 	usleep(time_ms * 1000);
-// 	gettimeofday(&cur_abs_time, NULL);
-// 	// rel_time_s = cur_abs_time.tv_sec - start_abs_time.tv_sec;
-// 	rel_time_ms = ((cur_abs_time.tv_usec + cur_abs_time.tv_sec * 1000000) - (start_abs_time.tv_usec + start_abs_time.tv_sec * 1000000)) / 1000;
-// 	printf("time elapsed: %d ms\n", rel_time_ms);
-// }
-
-// int main(void)
-// {
-// 	int i = 0;
-// 	__useconds_t x;
-
-// 	while (i<10)
-// 	{
-// 		print_time(i++);
-// 	}
-// 	while (i<100)
-// 	{
-// 		print_time(i);
-// 		i += 10;
-// 	}
-// 	while (i < 1000)
-// 	{
-// 		print_time(i);
-// 		i += 100;
-// 	}
-
-// }
 
 long	get_time(void)
 {
@@ -67,7 +43,8 @@ int	ft_msleep_check(unsigned int time, t_table *table)
 			return (0);
 		usleep(10000);
 	}
-	if (!is_dead(table) && !all_meals_eaten(table) && (get_time() - start) < time)
+	if (!is_dead(table) && !all_meals_eaten(table) \
+	&& (get_time() - start) < time)
 		ft_msleep(time - (get_time() - start));
 	return (0);
 }
