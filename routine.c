@@ -6,7 +6,7 @@
 /*   By: jgrigorj <jgrigorj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/06/16 18:02:15 by jgrigorj          #+#    #+#             */
-/*   Updated: 2025/06/16 18:40:36 by jgrigorj         ###   ########.fr       */
+/*   Updated: 2025/06/18 20:12:22 by jgrigorj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -60,5 +60,7 @@ void	handle_one_philo(t_philo *philo)
 	print_status(philo, "has taken a fork");
 	ft_msleep(philo->table->ttd);
 	print_status(philo, "died");
+	pthread_mutex_lock(&philo->table->dead_mutex);
 	philo->table->someone_died = TRUE;
+	pthread_mutex_unlock(&philo->table->dead_mutex);
 }
